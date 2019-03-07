@@ -2,7 +2,7 @@
 layout: post
 title:  "소프트웨어 개발 생명 주기 - 1"
 date:   2019-03-06 16:48:16
-categories: jekyll update
+categories: C, JAVA
 ---
 # 소프트웨어 개발 생명 주기
 
