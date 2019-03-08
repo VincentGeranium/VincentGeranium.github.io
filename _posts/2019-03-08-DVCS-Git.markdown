@@ -75,7 +75,7 @@ commit 3. 수,목,금 교육 시간 수정 (14년 07월 10일 17:00)
 
 ##### 새로운 브랜치 만들기
 - ##### 파일을 수정하기 않고 새로운 실험 하기
-![Error img](img/branch.jpg)
+![Error img](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/_posts/img/branch.jpg)
 
     - 새로 만든 branch lab1은 master와 완전히 동일한 상태를 가진 공간.
     - lab1 branch에서 수정을 한 후 commit 하면 그 변경사항은 lab1에만 기록되며 master branch에는 어떤 영향도 주지 않음
