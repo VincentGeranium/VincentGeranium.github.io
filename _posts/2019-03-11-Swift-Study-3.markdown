@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Swift-변수와 상수의 이름 정의"
-date:   2019-03-10
+title:  "Swift-자료형"
+date:   2019-03-11
 categories: Swift
 ---
 
