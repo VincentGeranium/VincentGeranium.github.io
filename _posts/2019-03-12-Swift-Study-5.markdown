@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Swift-자료형-3"
+title:  "Swift - 타입 추론과 타입 어노테이션"
 date:   2019-03-12
 categories: Swift
 ---
