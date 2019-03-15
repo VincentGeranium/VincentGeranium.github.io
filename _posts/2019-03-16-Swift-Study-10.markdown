@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "Swift - Array[2]"
+date:   2019-03-16
+categories: Swift
+---
+
+# Swift Array 공부
+
+- **Playground File을 보고 싶으신 분은 [Github](https://github.com/VincentGeranium/Swift-Study)**
+- **파일명 : 2019-03-15-Swfit-Study-Syntax-11.playground**
+
+// 배열의 sorting
+
+var newAlphabetList: [String] = ["A", "B", "C", "D", "E"]
+newAlphabetList.shuffle()
+newAlphabetList
+
+var sortingArray = newAlphabetList.sorted() // public func sorted() -> [Element]
+sortingArray // newAlphabetList를 sort해서 sortingArray 변수에 저장
+newAlphabetList // 그러나 newAlphabetList를 보면 sort되지 않았다
+
+newAlphabetList.sort() // public func sort()
+newAlphabetList // 그와 달리 sort()로 하면 아에 newAlphabetList가 sort되어 변한다
+
+// 쉽게 말해 var sortingArray = newAlphabetList.sorted()는 원본을 복사해 복사본을 변경하여 저장한 것으로 보면 되고
+// newAlphabetList.sort()는 원본 데이터 자체를 변경하여 원본이 변경되거 저장 된것으로 보면 된다
+
+// closure 문법으로 한 sort
+
+var closureSortAlphabet: [String] = ["A", "B", "C", "D", "E"]
+closureSortAlphabet
+
+closureSortAlphabet = newAlphabetList.sorted() { $0 > $1 }
+closureSortAlphabet
+newAlphabetList.sorted(by: >= )
+closureSortAlphabet
+
+newAlphabetList.sort { $0 > $1 }
+newAlphabetList
+
+// 배열의 인덱스와 내용을 함께 알고 싶을 때
+let fruitName = ["Apple", "Banan", "Mango"]
+
+for value in fruitName {
+    if let index = fruitName.index(of: value) {
+        print("\(index) - \(value)")
+    }
+}
+
+// enumerated // Value of tuple type '(offset: Int, element: String)
+print("\n---------- [ enumerated ] ----------\n")
+for (i, j) in fruitName.enumerated() {
+    print("\(i) - \(j)")
+}
+
+print("\n---------- [ enumerated 2] ----------\n")
+for i in fruitName.enumerated() {
+    print("\(i.0) - \(i.1)")
+}
+
+print("\n---------- [ enumerated 3] ----------\n")
+for i in fruitName.enumerated() {
+    print(i.0)
+}
+
+print("\n---------- [ enumerated 4] ----------\n")
+for i in fruitName.enumerated() {
+    print(i.1)
+}
+
+print("\n---------- [ enumerated 5] ----------\n")
+for (i, j) in fruitName.enumerated() {
+    print(i, j)
+}
