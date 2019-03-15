@@ -10,6 +10,7 @@ categories: Swift
 - **Playground File을 보고 싶으신 분은 [Github](https://github.com/VincentGeranium/Swift-Study)**
 - **파일명 : 2019-03-15-Swfit-Study-Syntax-10.playground**
 
+```
 // 배열 Array
 
 // 가변 객체와 불변 객체
@@ -156,3 +157,4 @@ if let indexD = alphabet.firstIndex(of: "D") {
     alphabet.remove(at: indexD)
 }
 alphabet
+```

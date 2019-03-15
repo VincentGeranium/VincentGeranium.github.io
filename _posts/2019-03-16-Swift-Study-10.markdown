@@ -10,6 +10,7 @@ categories: Swift
 - **Playground File을 보고 싶으신 분은 [Github](https://github.com/VincentGeranium/Swift-Study)**
 - **파일명 : 2019-03-15-Swfit-Study-Syntax-11.playground**
 
+```
 // 배열의 sorting
 
 var newAlphabetList: [String] = ["A", "B", "C", "D", "E"]
@@ -73,3 +74,4 @@ print("\n---------- [ enumerated 5] ----------\n")
 for (i, j) in fruitName.enumerated() {
     print(i, j)
 }
+```
