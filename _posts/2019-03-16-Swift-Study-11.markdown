@@ -1,0 +1,186 @@
+---
+layout: post
+title:  "Swift - Dictionary"
+date:   2019-03-16
+categories: Swift
+---
+
+
+ ## Dictionary
+ - 딕셔너리는 사전에서 고유 단어와 그 의미가 연결되어 있는 것처럼, 고유 키(Key)와 그에 대응하는 값(Value)을 연결하여 데이터를 저장하는 자료형
+ - 인덱스 정수 대신 고유 키를 사용한다는 차이를 제외하면 배열(Array)과 아주 흡사한 자료형이라고 할 수 있다
+
+ ## Dicrionary 정의 형식
+ - [key : value, key : value, ....]
+ - 딕셔너리를 정의시 배열과 마찬가지로 대괄호를 사용
+ - 키와 값 사이는 콜론( : )으로 구분
+ 
+ ## 딕셔너리 사용시 주의점
+ - 딕셔너리는 불특정 키가 사용되므로 데이터를 입력할 때 반드시 키와 함께 쌍으로 입력해야 한다
+ - 하나의 키는 하나의 데이터에만 열결되어야 한다
+ - 키 중복 X, 키를 중복해서 선언하면 아이템 추가가 아니라 수정이 이루어져 기존 키에 연결된 데이터가 제거된다
+ - 저장할 수 있는 데이터 타입에는 제한이 없다, 그러나 하나의 딕셔너리에 저장하는 데이터 타입은 모두 일치해야 한다
+
+```
+let dicExample1: Dictionary<String, String> = ["A":"Adidas", "B":"Blue", "C":"Color", "D":"Delete"]
+let dicExample2: [String:String] = ["A":"Adidas", "B":"Blue", "C":"Color", "D":"Delete"]
+let dicExample3 = ["A":"Adidas", "B":"Blue", "C":"Color", "D":"Delete"]
+let dicExample4: [Int:String] = [1:"Adidas", 2:"Blue", 3:"Color", 4:"Delete"]
+
+// 딕셔너리 내의 데이터 개수 세기
+var words = ["A":"Adidas", "B":"Blue", "C":"Color", "D":"Delete"]
+let countList = words.count
+
+if !words.isEmpty {
+    print("딕셔너리 안에 들어있는 개수는 \(countList)개 입니다")
+} else {
+    print("비어있는 딕셔너리 입니다")
+}
+
+// 딕셔너리 내의 데이터 검색
+words["A"] // "Adidas"
+print(words["A"]) //Optional("Adidas"
+
+words["Q"] // nil
+print(words["Q"]) // nil
+
+if let wordsValue = words["A"] {
+    print(wordsValue)
+} else {
+    print("Not found")
+}
+
+let wordsValue1 = words["A"]
+type(of: wordsValue1)
+
+if let wordsValue2 = words["Z"] {
+    print(wordsValue2)
+} else {
+    print("Not found")
+}
+
+print(words.keys) // 딕셔너리의 key 출력
+print(words.values) // 딕셔너리의 value 출력
+
+// 검색
+
+var wordsList = ["A":"Adidas", "B":"Blue", "C":"Color", "D":"Delete"]
+
+if wordsList.contains(where: { (key, value) -> Bool in
+    return key == "A"
+}){
+    print("키 A를 포함하고 있습니다")
+}
+
+if wordsList.contains(where: { (dict) -> Bool in
+    return dict.value.lowercased() == "Color".lowercased()
+}) {
+    print("Color 값을 포함하고 있습니다")
+}
+
+if wordsList.contains(where: {$0.1.lowercased() == "Color".lowercased()}) {
+    print("Color 값을 포합하고 있습니다")
+}
+
+let filteringResult = wordsList.filter { (key, value) -> Bool in
+    return value.lowercased().contains("a")
+}
+
+for (key, value) in filteringResult {
+    print("\(key) - \(value)")
+}
+
+
+// 딕셔너리 값 추가
+
+var newDic: [String : String] = ["A" : "A"]
+
+newDic["A"] // 키는 유일한 것이어야 한다
+
+newDic["A"] = "Apple"
+newDic
+
+newDic["B"] = "Banana"
+newDic
+
+newDic["B"] = "Blue"
+newDic // "B" 라는 키에 있던 "Banana" 값이 "B"라는 키에 다시 "Blue"를 추가하자 변경 되었다
+
+// 기존 값의 변경
+
+var changeValue: [String : String] = [:]
+changeValue["A"] = "Applicatrion" // 비어 있는 딕셔너리에 키와 값 추가
+changeValue
+
+changeValue["A"] = "App" // 기존의 키 값 "A"에 새로운 값 "App"를 추가
+changeValue // 기존 값 "Application"이 "App"로 변경
+
+// 기존에 키가 없으면 데이터 추가 후 nil 반환, 키가 있었다면 데이터 없데이트 후 oldValue 반환
+var exampleValue: [String : String] = ["S" : "Sua" , "K" : "Not Now"]
+exampleValue
+
+
+exampleValue.updateValue("KwangJun", forKey: "K")
+
+
+if let oldValue = exampleValue.updateValue("KwangJun", forKey: "K") {
+    print("\(oldValue) => \(exampleValue["K"]!)")
+} else {
+    print("+ \(exampleValue["K"]!)")
+}
+exampleValue
+
+if let oldValue = exampleValue.updateValue("Hi" , forKey: "S") {
+    print("\(oldValue)")
+}
+
+// 값 삭제
+
+var exampleWords = ["A":"Apple", "C":"Color", "M":"Market"]
+exampleWords["M"] = nil // key 값이 "M"이 였던것에 value를 nil로 넣자 key , value 가 모두 지워짐
+exampleWords["K"] = nil
+exampleWords // exampleWords에 "K"라는 키가 없는데 그곳에 nil를 할당하자 아무 일도 일어나지 않음
+
+exampleWords = ["A":"Apple", "C":"Color", "M":"Market", "S":"Sell"]
+
+// 지우려는 키가 존재하면 데이터를 지운 후 지운 데이터 반환, 없으면 nil
+if let deleteValue = exampleWords.removeValue(forKey: "S") {
+    print("\(deleteValue) 가 지워졌습니다.")
+}
+
+exampleWords.remove(at: exampleWords.startIndex)
+exampleWords
+
+exampleWords.removeAll() // 딕셔너리 안에 있는 모든 key : value 를 삭제
+
+// Enumerating an Dictionary
+
+let exampleDic = ["A":"Adidas", "B":"Blue Sea", "C":"Choice"]
+
+for (key, value) in exampleDic {
+    print("\(key): \(value)")
+}
+
+for (key, _) in exampleDic {
+    print("Key :", key)
+}
+
+// 중첩
+
+var dicTest = [String: [String]]() // key로 String 타입을 받고 value로 String 타입의 배열을 받는다
+//dicTest["arr1"] = "A" // 타입이 맞지 않아 Error
+dicTest["arr1"] = ["A","B","C"]
+dicTest["arr2"] = ["D","E","F"]
+dicTest
+
+var dicTest2 = [String: [String: Int]]() //[key로 String 타입을 받으면서 Value로 [key값이 String이며 Value값이 Int인 Dictionary]
+dicTest2["dicTest"] = [
+    "age": 15,
+    "hight": 161,
+]
+dicTest2["dicTest2"] = [
+    "age": 17,
+    "hight": 172
+]
+dicTest2
+```
