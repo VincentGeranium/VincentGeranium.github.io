@@ -1,0 +1,99 @@
+---
+layout: post
+title:  "Swift - Daily Study[190328]"
+date:   2019-03-18
+categories: Swift
+---
+
+
+## Today Study
+
+- 딕셔너리로 저장된 데이터를 튜플 타입을 지닌 배열로 변환하여 저장
+
+```
+let scores = ["kor": 92,"eng": 88, "math": 96, "science": 89]
+//결과 : [("kor", 92), ("eng", 88), ("math", 96), ("science", 89)]
+
+var convertArr: [(String,Int)] = []
+
+for (i,j) in scores {
+    convertArr.append((i,j))
+}
+
+convertArr
+print(convertArr)
+type(of: convertArr)
+```
+
+- 방법 2
+
+```
+let scores2 = ["kor": 92,"eng": 88, "math": 96, "science": 89]
+
+var anotherConvertArr: [(String,Int)] = []
+type(of: anotherConvertArr)
+
+
+for keyAndValue in scores2 {
+    anotherConvertArr.append(keyAndValue)
+}
+
+anotherConvertArr
+print(anotherConvertArr)
+type(of: anotherConvertArr)
+```
+
+- **위 두가지 방법으로 문제를 풀면서 배운점**
+    - 딕셔너리 타입을 for in 구문의 파라미터를 통해서 key, value 를 각각 뽑아 낼 수도 있고 한꺼번에 뽑아 낼 수도 있다는 것을 알았다
+- **.append() Summary**
+    - append를 뜯어보면 다음과 같다
+    - mutating func append(_ newElement: )
+- **.append() Discussion**
+    - Use this method to append a single element to the end of a mutable array
+- 방법 2에서 처음 초기값으로 배열 안에 튜플을 넣은 형식의 빈 배열 값을 정의 할 수 있다는 것을 알았다
+    - Ex) var test = [(String,Int)] = []
+
+
+- 정의한 딕셔너리 데이터 중 컴공 배열에 저장된 첫번째 데이터를 꺼내어 출력하기
+
+```
+let testDic = [
+    "본캠": [
+        "컴공":["ios","back","front"],
+        "교수님":["A","B"],
+        "인강":["C","D"]
+    ]
+]
+```
+
+- 방법 1
+
+```
+if let test = testDic["본캠"] {
+    if let cs = test["컴공"] {
+        print(cs[0])
+    }
+}
+```
+
+- 방법 2
+
+```
+if let test = testDic["본캠"],
+    let cs = test["컴공"],
+    let iOS = cs.first {
+    print(iOS)
+}
+```
+
+- 방법 3
+
+```
+print(testDic["본캠"]!["컴공"]![0])
+```
+
+- **위의 문제를 풀면서 배운점**
+    - if let 구문을 이용하여 optional binding으로 값을 변환시켜 각각에 키 안에 들어있는 값들을 가져 올 수 있다는 점
+    - 배열에서 값을 뽑아내는 것은 배열명[0] -> 0번째 인덱스의 값, 배열명[1] -> 1번째 인덱스의 값으로 하여 가져 올 수 있다는 점
+    - 딕셔너리에서는 딕셔너리명[key값] -> [key값에 대응하는 value 값] 으로 딕셔너리 값을 뽑을 수 있다는 점
+    - ! 연산자를 사용하여 데이터의 값들 속으로 들어 갈 수 있다는 점
