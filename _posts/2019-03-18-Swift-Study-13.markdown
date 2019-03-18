@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Swift - Daily Study[190328]"
+title:  "Swift - Daily Study[190318]"
 date:   2019-03-18
 categories: Swift
 ---
