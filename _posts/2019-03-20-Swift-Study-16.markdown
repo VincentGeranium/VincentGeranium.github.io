@@ -6,7 +6,7 @@ categories: Swift
 ---
 
 - **Playground File을 보고 싶으신 분은 [Github](https://github.com/VincentGeranium/Swift-Study)**
-- **파일명 : 2019-03-20-Swift-Study-Syntax.17.playground*
+- **파일명 : 2019-03-20-Swift-Study-Syntax.17.playground**
 
 - **1. 다음과 같은 속성(Property)과 행위(Method)를 가지는 클래스 만들어보기.**
 
