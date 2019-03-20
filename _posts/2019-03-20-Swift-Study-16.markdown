@@ -1,0 +1,229 @@
+---
+layout: post
+title:  "Swift - Problem solving[190320]"
+date:   2019-03-20
+categories: Swift
+---
+
+- **Playground File을 보고 싶으신 분은 [Github](https://github.com/VincentGeranium/Swift-Study)**
+- **파일명 : 2019-03-20-Swift-Study-Syntax.17.playground*
+
+- **1. 다음과 같은 속성(Property)과 행위(Method)를 가지는 클래스 만들어보기.**
+
+구현 내용은 자유롭게
+ 
+- 강아지 (Dog)
+    - 속성: 이름, 나이, 몸무게, 견종
+    - 행위: 짖기, 먹기
+ 
+- 학생 (Student)
+    - 속성: 이름, 나이, 학교명, 학년
+    - 행위: 공부하기, 먹기, 잠자기
+ 
+- 아이폰(IPhone)
+    - 속성: 기기명, 가격, faceID 기능 여부(Bool)
+    - 행위: 전화 걸기, 문자 전송
+ 
+- 커피(Coffee)
+    - 속성: 이름, 가격, 원두 원산지
+ 
+ 
+ 
+- **2. 계산기 클래스를 만들고 다음과 같은 기능을 가진 Property 와 Method 정의해보기**
+ 
+- 계산기 (Calculator)
+    - 속성: 현재 값
+    - 행위: 더하기, 빼기, 나누기, 곱하기, 값 초기화
+ 
+``` 
+ ex)
+ let calculator = Calculator() // 객체생성
+ 
+ calculator.value  // 0
+ 
+ calculator.add(10)    // 10
+ calculator.add(5)     // 15
+ 
+ calculator.subtract(9)  // 6
+ calculator.subtract(10) // -4
+ 
+ calculator.multiply(4)   // -16
+ calculator.multiply(-10) // 160
+ 
+ calculator.divide(10)   // 16
+ calculator.reset()      // 0
+```
+
+```
+class Dog {
+    var name: String
+    var age: Int
+    var weight: Double
+    var typeOfDog: String
+    
+    init(name: String, age: Int, weight: Double, typeOfDog: String) {
+        self.name = name
+        self.age = age
+        self.weight = weight
+        self.typeOfDog = typeOfDog
+    }
+    
+    func bark() {
+        print("\(name)가 짖었다")
+    }
+    
+    func eat() {
+        print("\(name)가 먹는다")
+    }
+}
+
+var myDog = Dog(name: "댕댕이", age: 1, weight: 29.5, typeOfDog: "golden retriever")
+myDog.name
+myDog.age
+myDog.weight
+myDog.typeOfDog
+myDog.bark()
+myDog.eat()
+
+class Student {
+    var name: String
+    var age: Int
+    var nameOfSchool: String
+    var grade: Int
+    
+    init(name: String, age: Int, nameOfSchool: String, grade: Int) {
+        self.name = name
+        self.age = age
+        self.nameOfSchool = nameOfSchool
+        self.grade = grade
+    }
+    
+    func study() {
+        print("\(name)이 마법 공부를 한다")
+    }
+    
+    func eatFood() {
+        print("\(name)이 연회장에서 밥을 먹는다")
+    }
+    
+    func sleep() {
+        print("\(name)이 그리핀도르 기숙사에서 잠을 잔다")
+    }
+    
+}
+
+var infomationOfStudent: Student = Student(name: "KwangJun", age: 19, nameOfSchool: "Hogwarts School of Witchcraft and Wizardry", grade: 6)
+infomationOfStudent.name
+infomationOfStudent.age
+infomationOfStudent.nameOfSchool
+infomationOfStudent.grade
+
+infomationOfStudent.study()
+infomationOfStudent.eatFood()
+infomationOfStudent.sleep()
+
+class iPhone {
+    var version: String = "iPhone 8 Plus"
+    var price: Double
+    var canFaceID: Bool
+    
+    init(price: Double, canFaceID: Bool) {
+        self.price = price
+        self.canFaceID = canFaceID
+    }
+    
+    func toCall(name: String) {
+        print("\(name)에게 전화를 겁니다")
+    }
+    
+    func toTextMessage(name: String) {
+        print("\(name)에게 문자 메시지를 보냅니다")
+    }
+    
+}
+
+var smartPhone: iPhone = iPhone(price: 1_240_790.0, canFaceID: false)
+smartPhone.version
+smartPhone.price
+smartPhone.canFaceID
+smartPhone.toCall(name: "Hermione")
+smartPhone.toTextMessage(name: "Cho Chang")
+
+class Coffee {
+    var origin: String = "Panama"
+    var price: Int = 13_200
+    var name: String = "Esmeralda"
+}
+
+let coffeeBean = Coffee()
+coffeeBean.origin
+coffeeBean.price
+coffeeBean.name
+
+
+
+class Calculator {
+    var value: Double = 0.0
+    var inputValue: Double = 0.0
+    var temporaryValue: Double = 0.0
+    
+    func add(inputValue: Double) -> Double {
+        temporaryValue = inputValue
+        value = value + temporaryValue
+        return value
+    }
+    
+    func subtract(inputValue:  Double) -> Double {
+        temporaryValue = inputValue
+        value = value - temporaryValue
+        return value
+    }
+    
+    func multiply(inputValue: Double) -> Double {
+        temporaryValue = inputValue
+        value = value * temporaryValue
+        return value
+    }
+    
+    func divide(inputValue: Double) -> Double {
+        temporaryValue = inputValue
+        value = value / temporaryValue
+        return value
+    }
+    
+    
+    
+    func reset() {
+        self.value = 0.0
+//        self.inputValue = 0.0
+//        self.temporaryValue = 0.0
+    }
+}
+
+var test = Calculator()
+test.add(inputValue: 3)
+test.add(inputValue: 8)
+test.value
+
+test.subtract(inputValue: 1)
+test.subtract(inputValue: 2)
+test.value
+
+test.multiply(inputValue: 2)
+test.multiply(inputValue: 2)
+test.value
+
+test.divide(inputValue: 2)
+test.divide(inputValue: 8)
+test.value
+
+test.reset()
+test.value
+
+test.add(inputValue: 10)
+test.subtract(inputValue: 2)
+test.multiply(inputValue: 2)
+test.divide(inputValue: 8)
+test.reset()
+test.value
+```
