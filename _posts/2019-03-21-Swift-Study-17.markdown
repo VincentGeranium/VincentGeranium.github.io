@@ -1,0 +1,160 @@
+---
+layout: post
+title:  "Swift - Daily Study[190321]"
+date:   2019-03-21
+categories: Swift
+---
+
+- **Playground File을 보고 싶으신 분은 [Github](https://github.com/VincentGeranium/Swift-Study)**
+- **파일명 : 2019-03-21-Swift-Study-Syntax-18.playground**
+
+
+## Today Study
+
+- **에시를 통한 Stored Property 학습**
+
+```
+struct ExampleStructure {
+    var firstVariableValue: Int
+    let secondConstantValue: Int
+}
+
+var testExample = ExampleStructure(firstVariableValue: 0, secondConstantValue: 3)
+
+testExample.firstVariableValue = 6
+// testExample.secondConstantValue = 10 // Error
+```
+
+- Stored Property는 클래스와 구조체에서 사용된다 열거형은 사용 불가
+- ExampleStructure 구조체 안에 들어 있는 firstVariableValue와 secondConstantValue가 **저장 프로퍼터 (Stored Property)**
+- var로 선언된 firstVariableValue는 "변수 저장 프로퍼티"
+- let으로 선언된 secondConstantValue는 "상수 저장 프로퍼티"
+- 초기값은 주지 않았다
+- var로 만든 testExample 인스턴스도 정의했다
+- **참고 :** 구조체는 기본적으로 저장 프로퍼티들을 Parameter로 가지는 Initializer(이니셜라이저)가 있다, 만약 위의 예시에서 초기값을 주었다면 ExampleStructure()로 선언 가능
+- 변수 저장 프로퍼티인 firstVariableValue는 0, 상수 저장 프로퍼티인 secondConstantValue에는 3을 주었다
+- ExampleStructure의 인스턴스인 testExample는 firstVariableValue와 secondConstantValue 둘 다 갖게 되었고, firstVariableValue를 3을 주었다가 6으로 변경했다
+- ExampleStructure 구조체에서 firstVariableValue는 "변수 저장 프로퍼티"로 선언되었으므로 값이 변할 수 있다
+- secondConstantValue는 "상수"로 선언되었기 때문에 인스턴스인 testExample를 통해서 값을 바꾸려고 하면 Error이 발생한다
+
+- **var 로 만들어진 인스턴스와 let으로 만들어진 인스턴스**
+
+- 위의 예시에서 **var** testExample 인스턴스를 **let** testExample1 인스턴스로 바꾸어 만들어보자
+
+```
+let testExample1 = ExampleStructure(firstVariableValue: 0, secondConstantValue: 3)
+//testExample1.firstVariableValue = 6 // Error
+//testExample1.secondConstantValue - 10 // Error
+```
+
+- **testExample.secondConstantValue = 10은 물론이고 위에서 값을 바꾸는데 성공했었던 testExample.firstVariableValue = 6과 똑같은 코드인데도 Error이 발생한다**
+- **그 이유는 구조체는 Value type이기 때문이다**
+- 구조체의 인스턴스가 **var**로 선언되면 해당 구조체의 프로퍼티들을 변경할 수 있다
+- 그러나 구조체의 인스턴스가 **let**으로 선언되면 해당 구조체의 프로퍼티들을 변경할 수 없다
+
+- **Reference type인 클래스**
+
+- 위의 구조체로 정의된 예시를 **Reference type**인 **Class**로 바꾸어 보자
+
+```
+class ExampleClass {
+    var firstClassValue: Int
+    let secondClassValue: Int
+    
+    init(firstClassValue: Int, secondClassValue: Int) {
+        self.firstClassValue = firstClassValue
+        self.secondClassValue = secondClassValue
+    }
+}
+
+var testExampleClass = ExampleClass(firstClassValue: 0, secondClassValue: 3)
+
+testExampleClass.firstClassValue // 초기값인 0 반환
+testExampleClass.firstClassValue = 3 // firstClassValue 에 3 대입
+testExampleClass.firstClassValue // 3 반환
+
+testExampleClass.secondClassValue // 초기값인 3 반환
+//testExampleClass.secondClassValue = 10 // Error
+```
+
+- **var testExampleClass** 인스턴스 생성
+- **Reference type**인 클래스도 let으로 선언된 secondClassValue 값을 바꾸지 못한다
+
+- **다시 위의 예시와 똑같은 class를 구현하는데 var testExampleClass를 let testExampleClass1로 바꾸어 구현**
+
+```
+class ExampleClass1 {
+    var firstClassValue: Int
+    let secondClassValue: Int
+    
+    init(firstClassValue: Int, secondClassValue: Int) {
+        self.firstClassValue = firstClassValue
+        self.secondClassValue = secondClassValue
+    }
+}
+
+let testExampleClass1 = ExampleClass1(firstClassValue: 0, secondClassValue: 3)
+
+testExampleClass1.firstClassValue // 초기값 0 반환
+testExampleClass1.firstClassValue = 3 // firstClassValue 에 3 대입
+testExampleClass1.firstClassValue // 3 반환
+```
+
+- 위의 구조체 예시에서는 var testExample 인스턴스를 let testExample1으로 바꾸고 firstVariableValue를 바꾸었을때 Error이 나타났다
+- **그러나 위 구조체의 예시와 똑같은 형태를 그저 Reference type인 class로 바꾸었는데 var -> let로 인스턴스를 바꾸고 나서 저장 프로퍼티의 값을 변경하였는데 오류가 나질 않았다**
+- **그 이유는 바로 Class는 Reference type이기 때문이다, Reference type는 원본에 바로 접근한다**
+    - **다시 쉽게 말해 Reference type은 원본에 바로 접근할 수 있는데 class 안에 들어있던 firstClassValue가 var로 원본안에 선언되어 있었으므로 변환이 가능한것이다**
+
+- **Lazy Stored Properties**
+- **Lazy Stored Properties는 값이 사용되지 전까지는 값이 계산되지 않는 프로퍼티이다**
+- Class, Structure에 사용, Enumeration에는 사용 불가
+
+- 예시를 통한 설명
+
+```
+class GetData {
+    // GetData class 생성
+    var nameOfFile = "data.txt"
+    // 저장프로퍼티
+}
+
+class ManagerClass {
+    // Manager class 생성
+    lazy var getterData = GetData()
+    // Lazy로 선언한 GetData 클래스의 getterData 인스턴스
+    var data = [String]()
+    // 저장프로퍼티, String 타입 값들만 들어가는 빈 배열(Array)
+}
+
+let manager = ManagerClass()
+// ManagerClass라는 이름의 클래스 인스턴스인 manager 생성, ManagerClass 클래스는 이미 초기값들이 다 들어가 있으므로 초기화가 필요없다
+manager.data.append("Some data")
+// data 라는 배열에 "Some data" 삽입
+manager.data.append("Some more data")
+// data 라는 배열에 "Some more data" 또 삽입
+```
+
+- **Lazy Stored Properties을 사용할때는**
+    - 초기값이 인스턴스의 초기화가 될때까지 값을 모르는 외부요소에 의존하는 경우
+    - 초기값이 복잡하거나 계산비용이 많이 드는 설정을 필요로 할때
+    - 필요한 경우가 제한적일때
+
+- 위의 예시 코드로 다시 돌아가서보면 lazy로 인스턴스를 선언해 놓고 밖에서 manager라는 ManagerClass의 인스턴스를 통해 getterData에 한번도 접근을 안했다
+- 그로인해 getterData가 생성이 안되었다, lazy로 선언하지 않고 그냥 선언했다면 getterData는 생성이 되었을것이다
+- **lazy로 선언되었으므로 사용되기 전까지는 생성되지 않는다**
+
+```
+print(manager.getterData.nameOfFile) // "data.txt" 반환
+```
+
+- **드디어 getterData라는 GetData의 인스턴스가 생성이 된다**
+- **Lazy Properties를 잘 사용하면 성능도 올라가고, 공간남비도 줄일 수 있다**
+
+- **lazy properties의 특징**
+
+- 1. 반드시 lazy 프로퍼티는 항상 변수로 선언해야 한다, var로 선언해야 한다는 말.
+    - 이유는 초기값은 인스턴스 초기값이 검색되지 않을 수 있기 때문이다
+    - let으로 선언한 프로퍼티는 인스턴스를 만들 떄 뺴고, 값을 변경할 수 없다, let으로 선언한 프로퍼티는 초기화를 함과 동시에 값을 가져야 하므로, lazy 프로퍼티로 선언할 수 없다
+    - lazy 프로퍼티는 **"값이 필요할 때"** 초기화를 하기 떄문이다
+    
+- 2. lazy로 선언했다고 해도 lazy 프로퍼티가 초기화 되지 않은 상태에서 여러 thread가 동시에 이 lazy 프로퍼티에 access 한다면, 이 프로퍼티가 단 한번만 초기화 된다는 것을 보장할 수 없다
