@@ -131,7 +131,7 @@ number + anotherNumber // 579
 - 중위 표기법 (Infix)
 number + anotherNumber // 579
 
-- **삼항 연산자(Ternary Operator)
+- **삼항 연산자(Ternary Operator)**
 - 스위프트에서 삼항 연산자는 단 하나
 
 ```
