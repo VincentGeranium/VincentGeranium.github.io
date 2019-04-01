@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Swift - Coding Test Practice[문자열 다루기 기본]"
+title:  "Swift - 알고리즘 공부 [문자열 다루기 기본]"
 date:   2019-04-01
 categories: Swift
 ---
 
-# Coding Test Practice  
+# Coding Test Practice
+
+## Algorithm  
   
 ### 이 포스트는 프로그래머스의 알고리즘 연습 문제를 풀고 정리하여 올리는 포스트 입니다
 
