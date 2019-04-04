@@ -18,4 +18,4 @@ categories: Swift
 
 ---
 
-[예시 코드 및 설명 주석 playground](./Swift-Study/OptionalBindingExample.playground/)
+[예시 코드 및 설명 주석 playground](https://github.com/VincentGeranium/Swift-Study/tree/master/OptionalBindingExample.playground)
