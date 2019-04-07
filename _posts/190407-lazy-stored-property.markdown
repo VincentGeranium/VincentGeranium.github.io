@@ -1,4 +1,12 @@
+---
+layout: post
+title:  "게으른 저장 프로퍼티(Lazy Stored Property)"
+date:   2019-04-07
+categories: Swift
+---
+
 # Lazy Stored Properties
+
 ---
 
 게으른 저장 프로퍼티(Lazy Stored Properties)
