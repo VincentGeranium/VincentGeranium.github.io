@@ -9,7 +9,7 @@ categories: Swift, iOS
 
 ---
 
-![screenShot]("https://user-images.githubusercontent.com/42841888/56032603-8bc81c80-5d5d-11e9-9413-8d9706bf2cce.png")
+![screenShot](https://user-images.githubusercontent.com/42841888/56043894-0ce0dd00-5d79-11e9-880e-daea464a3dee.png)
 
 위의 그림과 같은 뷰를 나타내기 위해서 만든 코드를 하나씩 뜯어보면서 공부해보자
 먼저, 클래스 안에 프로퍼티로 정의된 viewControllers를 보면 UIViewcController을 받는데 특이한 형태로 받는다
