@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Today I Learned - 190413"
+date:   2019-04-13
+categories: TIL
+---
+
+# Today I Learned
+
+---
+
+- TableView 코드 리뷰 [Blog](https://vincentgeranium.github.io/swift/2019/04/13/TableView-Study.html)
+- TableViewLifeCycle 코드 리뷰  [Blog](https://vincentgeranium.github.io/swift/2019/04/13/TableViewLifeCycle-Study.html)
