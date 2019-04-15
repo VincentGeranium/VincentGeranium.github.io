@@ -9,8 +9,8 @@ categories: TIL
 
 ---
 
-TableView List Method(1) 공부 [blog](https://vincentgeranium.github.io/swift,/ios/2019/04/15/TableView-List-Method.html)
-TableView List Method(2) 공부 [blog](https://vincentgeranium.github.io/swift,/ios/2019/04/15/TableView-List-Method-2.html)
+- TableView List Method(1) 공부 [blog](https://vincentgeranium.github.io/swift,/ios/2019/04/15/TableView-List-Method.html)
+- TableView List Method(2) 공부 [blog](https://vincentgeranium.github.io/swift,/ios/2019/04/15/TableView-List-Method-2.html)
 
 ---
 
