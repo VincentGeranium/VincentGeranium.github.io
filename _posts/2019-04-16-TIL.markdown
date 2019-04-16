@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "Today I Learned - 190416"
+date:   2019-04-16
+categories: TIL
+---
+
+# Today I Learned
+
+---
+
+- indexPath 공부 (TableView Code 중에 나오는) [blog](https://vincentgeranium.github.io/swift,/ios/2019/04/16/TableView-IndexPath.html)
+- TableView의 section 나누기, section의 row 만들기 by Code and Storyboard  [github](https://github.com/VincentGeranium/Swift-Study/tree/master/TableViewControllerStudy)
+- TableView의 section 나누기, section의 row 만들기 by Code [github](https://github.com/VincentGeranium/Swift-Study/tree/master/2019-04-16-TableViewControllerStudyByCode)
+- TableView의 메소드 중 (dequeueReusableCell) 공부 [blog](https://vincentgeranium.github.io/swift,/ios/2019/04/16/TableView-Method-dequeueReusableCell-Study.html)
+- 화면 전환 공부(스토리보드와 코드 함께 사용) [github](https://github.com/VincentGeranium/Swift-Example/tree/master/Scene-Trans01)
+- 화면 전환 코드로 구현 [github](https://github.com/VincentGeranium/Swift-Example/tree/master/Scene-Trans01-byCode)
+
+---
+
+# Today Review
+
+오늘은 기본적이지만 그래도 혼자서 책을 보고 예제를 따라해본 뒤 배운 내용을 토대로 스스로 화면 전환을 코드로 구현해봤다
+지금까지 이해가 안가고 그냥 이렇게 쓰라니까 이런거겠지 했던 것들을 책에서 한번 더 보고 스스로 이해하고 나서 코드로 구현하니
+학습이 더 잘되고 머리에 들어왔다.
+공부하는게 점점 재미있어진다.
