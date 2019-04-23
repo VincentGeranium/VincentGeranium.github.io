@@ -1,4 +1,4 @@
---
+---
 layout: post
 title:  "Closure 함축 문법  - 190423"
 date:   2019-04-23
