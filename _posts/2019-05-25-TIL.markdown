@@ -1,4 +1,4 @@
---
+---
 layout: post
 title:  "Today I Learned - 190525"
 date:   2019-05-25
