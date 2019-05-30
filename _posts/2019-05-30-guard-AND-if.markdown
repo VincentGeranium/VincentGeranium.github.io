@@ -1,3 +1,10 @@
+--
+layout: post
+title:  "guard 문과 if 문의 차이"
+date:   2019-05-30
+categories: iOS, Swift
+---
+
 # guard and if syntax
 
 ---
