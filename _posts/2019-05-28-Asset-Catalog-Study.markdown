@@ -48,7 +48,7 @@ categories: iOS, Swift
 
 ## 에셋 카탈로그 폴더의 구조
 
-![img]("https://user-images.githubusercontent.com/42841888/58445588-2d51d480-8138-11e9-9036-c0fbbf327135.png")
+![img](https://user-images.githubusercontent.com/42841888/58445588-2d51d480-8138-11e9-9036-c0fbbf327135.png)
 
 - Asset catalog folder : 모든 폴더와 파일들을 갖고 있다
 
@@ -89,7 +89,7 @@ categories: iOS, Swift
 
 # Slicing
 
-![slicing]("https://user-images.githubusercontent.com/42841888/58445652-668a4480-8138-11e9-8ca1-41cee90e9986.png")
+![slicing](https://user-images.githubusercontent.com/42841888/58445652-668a4480-8138-11e9-8ca1-41cee90e9986.png)
 
 - 애플리케이션이 지원하는 다양한 디바이스에 대한 여러 조각의 에플리케이션 번들(app bundle)을 생성하고 디바이스에 알맞은 조각을 전달하는 기술
     - 개발자가 애플리케이션의 전체 버전을 iTunes Connect에 업로드하게 되면, 앱 스토어에는 각 디바이스 특성에 다양한 버전의 조각들이 생성된다
