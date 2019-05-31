@@ -53,15 +53,15 @@ categories: iOS, Swift
 
 **is** 키워드를 통해 **특정 클래스의 인스턴스의 타입 확인** (**Struct도 가능**)
 
-[is_typeCasting](https://user-images.githubusercontent.com/42841888/58674377-83b65180-838a-11e9-8f35-c915999fb06c.png)
+![is_typeCasting](https://user-images.githubusercontent.com/42841888/58674377-83b65180-838a-11e9-8f35-c915999fb06c.png)
 
 **jun 이라는 인스턴스가 Person의 인스턴스인가? 하고 확인하는 것** -> 인스턴스 자체를 확인 -> **is 사용**
 
-[is_typeCasting_property](https://user-images.githubusercontent.com/42841888/58674539-42727180-838b-11e9-801d-0bc750dc9543.png)
+![is_typeCasting_property](https://user-images.githubusercontent.com/42841888/58674539-42727180-838b-11e9-801d-0bc750dc9543.png)
 
 **jun이라는 인스턴스의 타입이 String인가? 하고 확인하는 것** -> 인스턴스의 프로퍼티를 확인 -> **is 사용** 
 
-[is_ArrayTypeCheck](https://user-images.githubusercontent.com/42841888/58675266-81ee8d00-838e-11e9-9ce4-89cfd48a1085.png)
+![is_ArrayTypeCheck](https://user-images.githubusercontent.com/42841888/58675266-81ee8d00-838e-11e9-9ce4-89cfd48a1085.png)
 
 **배열을 돌면서 해당 인스턴스가 Movie인지, Song인지 "is"로 타입을 확인**
 
@@ -87,7 +87,7 @@ categories: iOS, Swift
 
 잘못된 클래스의 타입으로 다운캐스트 하려고 하면, **런타임 에러**를 발생시킨다
 
-[as_typeCasting](https://user-images.githubusercontent.com/42841888/58676541-96815400-8393-11e9-9204-64db0136efbf.png)
+![as_typeCasting](https://user-images.githubusercontent.com/42841888/58676541-96815400-8393-11e9-9204-64db0136efbf.png)
 
 if let 구문을 활용하여 **as? 라는 조건부 형식 다운캐스팅을 진행**
 
