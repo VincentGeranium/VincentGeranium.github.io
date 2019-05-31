@@ -2,7 +2,7 @@
 layout: post
 title:  "타입캐스팅 is, as 개념 정리"
 date:   2019-05-30
-categories: TIL
+categories: iOS, Swift
 ---
 
 # Type Casting, Downcasting
