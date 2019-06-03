@@ -13,7 +13,7 @@ categories: Swift, iOS
 
 # AVFoundation
 
-**AVFoundation은** 다양한 Apple 플랫폼에서 **사운드 및 영상 미디어의 처리, 제어, 가져오기 및 내보내기 **등 광범위한 기능을 하는 **프레임워크**
+**AVFoundation은** 다양한 Apple 플랫폼에서 **사운드 및 영상 미디어의 처리, 제어, 가져오기 및 내보내기** 등 광범위한 기능을 하는 **프레임워크**
 
 # AVFoundation의 주요 기능
 
