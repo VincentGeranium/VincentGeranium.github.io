@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Today I Learned - 190605"
-date:   2019-06-05
+title:  "Today I Learned - 190604"
+date:   2019-06-04
 categories: TIL
 ---
 
