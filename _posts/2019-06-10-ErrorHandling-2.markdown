@@ -16,6 +16,7 @@ categories: iOS, Swift
 [Vincent의 Error Handling(1)](https://vincentgeranium.github.io/ios,/swift/2019/06/07/ErrorHandling.html)
 
 아래의 링크는 현재 포스트를 바탕으로 한 실습 구현 자료로 가는 링크 입니다
+
 [vincent의 Error Handling 구현](https://github.com/VincentGeranium/Swift-Study/tree/master/ErrorHandling-2.playground)
 
 ---
