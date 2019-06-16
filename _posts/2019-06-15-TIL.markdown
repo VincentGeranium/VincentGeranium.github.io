@@ -5,13 +5,6 @@ date:   2019-06-15
 categories: TIL
 ---
 
----
-layout: post
-title:  "Today I Learned - 190615"
-date:   2019-06-15
-categories: TIL
----
-
 # Today I Learned
 
 ---
