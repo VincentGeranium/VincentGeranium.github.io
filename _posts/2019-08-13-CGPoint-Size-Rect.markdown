@@ -12,7 +12,7 @@ categories: Swift, iOS
 
 #### CGPoint Instance Properties
 
-![image1](https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGPointInstance.png)
+<img width="410" alt="CGBrothers" src="https://user-images.githubusercontent.com/42841888/62932329-e0a69d00-bdfa-11e9-8767-cc5e0db921b8.png">
 
 ---
 
