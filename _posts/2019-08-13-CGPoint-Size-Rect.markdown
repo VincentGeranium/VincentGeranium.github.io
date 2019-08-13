@@ -12,7 +12,7 @@ categories: Swift, iOS
 
 #### CGPoint Instance Properties
 
-![image1](img width="400" alt="image" src="https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGPointInstance.png")
+![image1](https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGPointInstance.png)
 
 ---
 
@@ -21,11 +21,11 @@ categories: Swift, iOS
 #### 정의
     너비와 높이 "값"을 포함하는 구조체
 
-![image2](img width="400" alt="image" src="https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGSize.png")
+![image2](https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGSize.png)
     
 #### CGSize Instance Properties
 
-![image3](img width="400" alt="image" src="https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGSizeInstance.png")
+![image3](https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGSizeInstance.png)
         
 ---
 
@@ -34,19 +34,19 @@ categories: Swift, iOS
 #### 정의
     사각형의 "위치와 크기"를 포함하는 구조체
 
-![image4](img width="400" alt="image" src="https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGRect.png")
+![image4](https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGRect.png)
         
 
 #### CGRect Geometric Properties
 
-![image5](img width="400" alt="image" src="https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGRectProperties.png")
+![image5](https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGRectProperties.png)
     
 #### CGRect 내부 코드 구현 
 
-![image6](img width="400" alt="image" src="https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGRectStruct.png")
+![image6](https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGRectStruct.png)
     
 ---
 
 # CGPoint, CGSize, CGRect
 
-![image7](img width="400" alt="image" src="https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGBrothers.png")
+![image7](https://github.com/VincentGeranium/Swift-Study/blob/master/IMAGE/CGBrothers.png)
