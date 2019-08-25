@@ -9,7 +9,7 @@ categories: Swift, iOS
 
 ---
 
-<img width="800" alt="algorithm_waterMelon" src="https://user-images.githubusercontent.com/42841888/63654023-adc3b800-c7af-11e9-8688-ba1f43673fcd.png">
+<img width="1600" alt="algorithm_waterMelon" src="https://user-images.githubusercontent.com/42841888/63654023-adc3b800-c7af-11e9-8688-ba1f43673fcd.png">
 
 ---
 
