@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "KT S/W Conferance 2019"
+title:  "KT S/W Conference 2019"
 date:   2019-08-27
 categories: Study, Conferance
 ---
