@@ -272,3 +272,53 @@ if hangle.hasSuffix("한글") {
 ```
 
 ---
+
+## Substring (부분 문자열)
+
+- String에는 String.Index 타입의 범위(Range)를 인자로 받는 subscript가 구현되어 있다.
+
+```swift
+let string = "abc123"
+
+let start = string.index(after: string.startIndex)
+let end = string.index(string.endIndex, offsetBy: -2)
+
+let subString = string[start...end] // "bc12"
+```
+
+- String.Index를 이용해 범위(Range)를 만들고 이것을 문자열의 subscript 를 이용하면 Substring(부분문자열)을 구할 수 있다
+
+```swift
+let string = "abc123"
+
+let start = string.index(after: string.startIndex)
+let end = string.index(before: string.endIndex)
+
+let subString = string[start..<end]  // "bc12"
+
+type(of: subString) // Substring.Type
+```
+
+- 위의 예시와 같이 범위 표현 방식에 따라 같은 값을 가리키더라도 다른 코드로 구현할 수 있다.
+
+```swift
+
+let realSubstring = String(substring) // "bc12"
+
+type(of: realSubstring) // String.Type
+
+```
+
+- Substring 타입은 특정 문자열의 부분 문자열을 담기 위한 특수한 타입이다.
+
+    - 하지만 문자열이 아니기 때문에 String 타입이 필요한 곳에 그냥 넘겨 줄 수가 없다
+    
+    - String로 바꿔줘야 한다.
+    
+    - 타입의 용도가 다르기 때문에 형변환(type casting)이 안되는 점은 주의해한다.
+    
+---
+
+참고자료
+- [Eth Developer's Lab](https://hcn1519.github.io/articles/2017-07/swift_Str)
+- [Seorenn SIGSEGV](http://seorenn.blogspot.com/2018/05/swift-string-index.html)
