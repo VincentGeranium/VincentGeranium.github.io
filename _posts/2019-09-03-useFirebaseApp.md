@@ -17,7 +17,7 @@ categories: iOS, Swift
 
 - 디바이스의 카메라를 이용하여 사진 찍기
 
-<img width="200" alt="takePhoto" scr="/assets/img/takePhoto.PNG">
+<img width="200" alt="takePhoto" scr="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/takePhoto.PNG">
 
 - 사진을 찍은 후 메인 View에 나타난 찍은 사진
 
