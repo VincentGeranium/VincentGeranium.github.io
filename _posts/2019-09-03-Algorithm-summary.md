@@ -83,4 +83,4 @@ let second = $1[$1.index($1.startIndex, offsetBy: n)]
     
         - 즉, 배열의 두 값을 가져와 그 크기를 비교하여 앞의 값이 뒤의 값보다 이전에 와야하면 true, 그렇지 않으면 false를 반환하는 것을 반복하고 그 결과에 따라 정렬한다
 
-<img width="600" height="200" alt="deadLock" src="/assets/img/algorithm_sorted.png">
+![algorithm_sorted](/assets/img/algorithm_sorted.png)
