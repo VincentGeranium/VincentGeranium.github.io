@@ -17,36 +17,35 @@ categories: iOS, Swift
 
 - 디바이스의 카메라를 이용하여 사진 찍기
 
-<img width="200" alt="takePhoto" scr="https://vincentgeranium.github.io/assets/img/takePhoto.PNG">
-
+<img width="200" alt="takePhoto" scr="https://user-images.githubusercontent.com/42841888/64150730-cd1fac80-ce63-11e9-92db-9e3e51905e13.PNG">
 
 - 사진을 찍은 후 메인 View에 나타난 찍은 사진
 
-<img width="200" alt="takePhoto_2" scr="https://vincentgeranium.github.io/assets/img/takePhoto_2.PNG">
+<img width="200" alt="takePhoto_2" scr="https://user-images.githubusercontent.com/42841888/64150770-e58fc700-ce63-11e9-8b83-1f35b5175ff6.PNG">
 
 - save 버튼을 눌러 디바이스 내의 커스텀 앨범을 따로 만들어 저장
 
-<img width="200" alt="savePhoto" scr="https://vincentgeranium.github.io/assets/img/savePhoto.PNG">
+<img width="200" alt="savePhoto" scr="https://user-images.githubusercontent.com/42841888/64150812-fd674b00-ce63-11e9-8c88-1ae4a12ac39e.PNG">
 
 - 커스텀 앨범에 저장된 사진
 
-<img width="200" alt="saveInCustomAlbum" scr="https://vincentgeranium.github.io/assets/img/saveInCustomAlbum.PNG">
+<img width="200" alt="saveInCustomAlbum" scr="https://user-images.githubusercontent.com/42841888/64150860-17089280-ce64-11e9-9afb-c28e20573c35.PNG">
 
 - Upload 버튼을 눌러 Firebase DB에 사진 올리기
 
-<img width="200" alt="saveToDB" scr="https://vincentgeranium.github.io/assets/img/saveToDB.PNG">
+<img width="200" alt="saveToDB" scr="https://user-images.githubusercontent.com/42841888/64150896-2982cc00-ce64-11e9-9c2d-b87109f0d2ce.PNG">
 
 - firebase의 DB에 저장된 모습
 
-<img width="3246" height="1410" alt="firebaseDB" scr="https://vincentgeranium.github.io/assets/img/firebaseDB.png">
+<img width="1623" height="705" alt="firebaseDB" scr="https://user-images.githubusercontent.com/42841888/64150929-3c959c00-ce64-11e9-955f-5d66eba933e5.png">
 
 - firebase의 storage에 저장된 모습
 
-<img width="3246" height="1410" alt="firebaseStorage" scr="https://vincentgeranium.github.io/assets/img/firebaseStorage.png">
+<img width="1548" height="676" alt="firebaseStorage" scr="https://user-images.githubusercontent.com/42841888/64151040-7ff00a80-ce64-11e9-85d3-34fc5910b1ad.png">
 
 - Download 버튼을 눌러 firebase DB에서 이미지를 가저온 모습
 
-<img width="200" alt="downloadFromDB" scr="https://vincentgeranium.github.io/assets/img/downloadFromDB.PNG">
+<img width="200" alt="downloadFromDB" scr="https://user-images.githubusercontent.com/42841888/64151101-a150f680-ce64-11e9-8519-cd190f014e50.PNG">
 
 ---
 
