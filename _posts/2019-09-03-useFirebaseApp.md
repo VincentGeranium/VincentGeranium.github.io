@@ -17,35 +17,36 @@ categories: iOS, Swift
 
 - 디바이스의 카메라를 이용하여 사진 찍기
 
-<img width="200" alt="takePhoto" scr="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/takePhoto.PNG">
+<img width="200" alt="takePhoto" scr="https://vincentgeranium.github.io/assets/img/takePhoto.PNG">
+
 
 - 사진을 찍은 후 메인 View에 나타난 찍은 사진
 
-<img width="200" alt="takePhoto_2" scr="/assets/img/takePhoto_2.PNG">
+<img width="200" alt="takePhoto_2" scr="https://vincentgeranium.github.io/assets/img/takePhoto_2.PNG">
 
 - save 버튼을 눌러 디바이스 내의 커스텀 앨범을 따로 만들어 저장
 
-<img width="200" alt="savePhoto" scr="/assets/img/savePhoto.PNG">
+<img width="200" alt="savePhoto" scr="https://vincentgeranium.github.io/assets/img/savePhoto.PNG">
 
 - 커스텀 앨범에 저장된 사진
 
-<img width="200" alt="saveInCustomAlbum" scr="/assets/img/saveInCustomAlbum.PNG">
+<img width="200" alt="saveInCustomAlbum" scr="https://vincentgeranium.github.io/assets/img/saveInCustomAlbum.PNG">
 
 - Upload 버튼을 눌러 Firebase DB에 사진 올리기
 
-<img width="200" alt="saveToDB" scr="/assets/img/saveToDB.PNG">
+<img width="200" alt="saveToDB" scr="https://vincentgeranium.github.io/assets/img/saveToDB.PNG">
 
 - firebase의 DB에 저장된 모습
 
-<img width="3246" height="1410" alt="firebaseDB" scr="/assets/img/firebaseDB.png">
+<img width="3246" height="1410" alt="firebaseDB" scr="https://vincentgeranium.github.io/assets/img/firebaseDB.png">
 
 - firebase의 storage에 저장된 모습
 
-<img width="3246" height="1410" alt="firebaseStorage" scr="/assets/img/firebaseStorage.png">
+<img width="3246" height="1410" alt="firebaseStorage" scr="https://vincentgeranium.github.io/assets/img/firebaseStorage.png">
 
 - Download 버튼을 눌러 firebase DB에서 이미지를 가저온 모습
 
-<img width="200" alt="downloadFromDB" scr="/assets/img/downloadFromDB.PNG">
+<img width="200" alt="downloadFromDB" scr="https://vincentgeranium.github.io/assets/img/downloadFromDB.PNG">
 
 ---
 
