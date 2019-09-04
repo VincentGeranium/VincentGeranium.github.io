@@ -17,23 +17,23 @@ categories: iOS, Swift
 
 - 디바이스의 카메라를 이용하여 사진 찍기
 
-<img width="200" alt="takePhoto" scr="https://user-images.githubusercontent.com/42841888/64230191-0ff68880-cf27-11e9-993d-794961703808.png">
+![takePhoto](https://user-images.githubusercontent.com/42841888/64230684-792acb80-cf28-11e9-8ecc-5971312cfe1a.PNG)
 
 - 사진을 찍은 후 메인 View에 나타난 찍은 사진
 
-<img width="200" alt="takePhoto_2" scr="https://user-images.githubusercontent.com/42841888/64229813-dbce9800-cf25-11e9-92aa-b6d0ee802d4b.png">
+![takePhoto_2](https://user-images.githubusercontent.com/42841888/64230654-60221a80-cf28-11e9-875a-1e0c7d6b306b.PNG)
 
 - save 버튼을 눌러 디바이스 내의 커스텀 앨범을 따로 만들어 저장
 
-<img width="200" alt="savePhoto" scr="https://user-images.githubusercontent.com/42841888/64230131-e4739e00-cf26-11e9-872f-2be2016ca987.png">
+![savePhoto](https://user-images.githubusercontent.com/42841888/64230614-4385e280-cf28-11e9-8674-f96137f02dd3.PNG)
 
 - 커스텀 앨범에 저장된 사진
 
-<img width="200" alt="saveInCustomAlbum" scr="https://user-images.githubusercontent.com/42841888/64230115-cefe7400-cf26-11e9-91f6-1e20c216dc41.png">
+![saveInCustomAlbum](https://user-images.githubusercontent.com/42841888/64230581-30731280-cf28-11e9-8f28-f43261715b09.PNG)
 
 - Upload 버튼을 눌러 Firebase DB에 사진 올리기
 
-<img width="200" alt="saveToDB" scr="https://user-images.githubusercontent.com/42841888/64230025-88a91500-cf26-11e9-842e-3fdf37cb625d.png">
+![saveToDB](https://user-images.githubusercontent.com/42841888/64230562-1fc29c80-cf28-11e9-85aa-070183f44caf.PNG)
 
 - firebase의 DB에 저장된 모습
 
@@ -45,7 +45,7 @@ categories: iOS, Swift
 
 - Download 버튼을 눌러 firebase DB에서 이미지를 가저온 모습
 
-<img width="200" alt="downloadFromDB" scr="https://user-images.githubusercontent.com/42841888/64229991-62837500-cf26-11e9-9db6-a3a4a0cded01.png">
+![downloadFromDB](https://user-images.githubusercontent.com/42841888/64230523-03266480-cf28-11e9-889f-5d63641005fa.PNG)
 
 ---
 
