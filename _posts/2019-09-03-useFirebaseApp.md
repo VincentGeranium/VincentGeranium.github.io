@@ -41,7 +41,7 @@ categories: iOS, Swift
 
 - firebase의 storage에 저장된 모습
 
-<img width="1548" height="676" alt="firebaseStorage" scr="https://user-images.githubusercontent.com/42841888/64151040-7ff00a80-ce64-11e9-85d3-34fc5910b1ad.png">
+<img width="1548" alt="firebaseStorage" src="https://user-images.githubusercontent.com/42841888/64229638-47643580-cf25-11e9-8d97-2af69dca8fa6.png">
 
 - Download 버튼을 눌러 firebase DB에서 이미지를 가저온 모습
 
