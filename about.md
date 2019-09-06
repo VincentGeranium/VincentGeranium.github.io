@@ -10,7 +10,7 @@ permalink: /about/
 
 # 목차
 
-- [팀 프로젝트](https://github.com/VincentGeranium/Resume#팀-프로젝트)
+- [팀 프로젝트](https://github.com/VincentGeranium/VincentGeranium.github.io#팀-프로젝트)
     - Fishing Point (피싱 포인트)
     - Green Light (그린 라이트)
     - AirBnB Clone Project
