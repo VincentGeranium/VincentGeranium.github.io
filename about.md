@@ -48,7 +48,7 @@ Fast Campus 첫 해커톤, 팀 프로젝트.
 - [영상 링크](https://youtu.be/uMAwjqyQP90)
 - [Fishing Point repo](https://github.com/VincentGeranium/fishing)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/1.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/2.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/3.PNG">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/1.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/2.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/3.PNG">
 
 ---
 
@@ -66,7 +66,7 @@ Fast Campus 두 번째 해커톤, 팀 프로젝트.
 - 프로젝트 인원 : 3명
 - [영상 링크](https://youtu.be/VoQcsD0qX-Q)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g1.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g2.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g3.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g4.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g5.png">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g1.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g2.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g3.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g4.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g5.png">
 
 ---
 
@@ -83,7 +83,7 @@ Back-end(3명), Front-end(4명), iOS(3명) 이 1팀을 이루어 한 프로젝�
 - [영상 링크](https://youtu.be/k47imZZucpY)
 - [AirBnB Clone Project](https://github.com/VincentGeranium/MyAirbnb)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a1.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a2.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a3.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a4.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a5.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a6.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a7.PNG">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a1.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a2.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a3.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a4.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a5.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a6.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a7.PNG">
     
 ---
 This is Vincent Blog
