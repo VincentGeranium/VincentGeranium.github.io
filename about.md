@@ -19,11 +19,13 @@ permalink: /about/
 
 # 김광준
 
-## 개발과 사람을 좋아하는 iOS 개발자 김광준 입니다.
+### 개발과 사람을 좋아하는 iOS 개발자 김광준 입니다.
 
-## contact
+### contact
 
-- E-mail : kwangjun3952@gmail.com
+- E-mail : <kwangjun3952@gmail.com>
+
+- Rocket Punch : <https://www.rocketpunch.com/@kwangjun3952>
 
 ---
 
@@ -48,7 +50,7 @@ Fast Campus 첫 해커톤, 팀 프로젝트.
 - [영상 링크](https://youtu.be/uMAwjqyQP90)
 - [Fishing Point repo](https://github.com/VincentGeranium/fishing)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/3.PNG">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/3.PNG?raw=true">
 
 ---
 
@@ -66,7 +68,7 @@ Fast Campus 두 번째 해커톤, 팀 프로젝트.
 - 프로젝트 인원 : 3명
 - [영상 링크](https://youtu.be/VoQcsD0qX-Q)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g1.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g2.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g3.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g4.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g5.png">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g1.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g2.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g3.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g4.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g5.png?raw=true">
 
 ---
 
@@ -83,7 +85,7 @@ Back-end(3명), Front-end(4명), iOS(3명) 이 1팀을 이루어 한 프로젝�
 - [영상 링크](https://youtu.be/k47imZZucpY)
 - [AirBnB Clone Project](https://github.com/VincentGeranium/MyAirbnb)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a1.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a2.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a3.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a4.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a5.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a6.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a7.PNG">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a3.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a4.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a5.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a6.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a7.PNG?raw=true">
     
 ---
 This is Vincent Blog
