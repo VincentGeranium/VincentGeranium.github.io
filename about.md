@@ -48,7 +48,7 @@ Fast Campus 첫 해커톤, 팀 프로젝트.
 - [영상 링크](https://youtu.be/uMAwjqyQP90)
 - [Fishing Point repo](https://github.com/VincentGeranium/fishing)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/1.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/2.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/3.PNG">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/3.PNG">
 
 ---
 
