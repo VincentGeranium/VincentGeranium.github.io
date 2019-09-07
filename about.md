@@ -10,6 +10,7 @@ permalink: /about/
 
 # 김광준
 
+
 ### 개발과 사람을 좋아하는 iOS 개발자 김광준 입니다.
 
 ---
@@ -30,6 +31,8 @@ permalink: /about/
     - Fishing Point (피싱 포인트)
     - Green Light (그린 라이트)
     - AirBnB Clone Project
+    
+- [TIL](#TIL)
 
 ---
 
@@ -90,7 +93,13 @@ Back-end(3명), Front-end(4명), iOS(3명) 이 1팀을 이루어 한 프로젝�
 - [AirBnB Clone Project](https://github.com/VincentGeranium/MyAirbnb)
 
 <img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a3.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a4.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a5.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a6.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a7.PNG?raw=true">
-    
+
+---
+
+## TIL
+
+[TIL](https://github.com/VincentGeranium/TIL/blob/master/Today_I_Learnd/README.md)
+
 ---
 
 This is Vincent Blog
