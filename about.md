@@ -36,6 +36,12 @@ permalink: /about/
 
 ---
 
+## TIL
+
+### [Today I Learned](https://github.com/VincentGeranium/TIL/blob/master/Today_I_Learnd/README.md)
+
+---
+
 # 프로젝트
 
 ---
@@ -95,10 +101,6 @@ Back-end(3명), Front-end(4명), iOS(3명) 이 1팀을 이루어 한 프로젝�
 <img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a3.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a4.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a5.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a6.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a7.PNG?raw=true">
 
 ---
-
-## TIL
-
-[TIL](https://github.com/VincentGeranium/TIL/blob/master/Today_I_Learnd/README.md)
 
 ---
 
