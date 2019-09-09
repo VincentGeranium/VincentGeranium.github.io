@@ -57,7 +57,7 @@ categories: iOS, Swift
     
     - 만약 하나의 슈퍼뷰에 포함된 두 서브뷰가 서로 겹치게 되면, 나중에 추가된(또는 서브뷰 배열의 끝으로 옮겨진) 서브뷰가 맨 위에 보여지게 된다.
     
-<img width="1500" alt="image" scr="https://raw.githubusercontent.com/VincentGeranium/VincentGeranium.github.io/master/assets/img/superviewAndsubview.png">
+![superviewAndsubview](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/superviewAndsubview.png?raw=true){: width="1500" height="1300"}
 
 ---
 
@@ -99,12 +99,12 @@ categories: iOS, Swift
 
 - 뷰의 바운드(bounds)는 뷰의 크기와 위치를 해당 뷰 자신의 좌표계를 기준으로 나타낸다.
 
-<img width="1500" alt="image" scr="https://raw.githubusercontent.com/VincentGeranium/VincentGeranium.github.io/master/assets/img/originFrameBound.png">
+![originFrameBound](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/originFrameBound.png?raw=true){: width="1500" height="1300"}
 
 #### 프레임과 바운드 구현
 
 
-<img width="1500" alt="image" scr="https://raw.githubusercontent.com/VincentGeranium/VincentGeranium.github.io/master/assets/img/originBoundsFrameExample.png">
+![originBoundsFrameExample](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/originBoundsFrameExample.png?raw=true){: width="1500" height="1300"}
 
 ---
 
@@ -129,7 +129,7 @@ categories: iOS, Swift
 - CGPoint의 x, y와 CGSize의 width, height는 모두 부동소수점 타입인 CGFloat으로 표현된다.
 
 
-<img width="1500" alt="image" scr="https://raw.githubusercontent.com/VincentGeranium/VincentGeranium.github.io/master/assets/img/uiviewFrame.png">
+![uiviewFrame](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/uiviewFrame.png?raw=true){: width="1500" height="1300"}
 
 
 ---
