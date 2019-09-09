@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Swift 프로그래밍 (데이터 타입 안심, 타입 별칭)"
+title:  "Swift 프로그래밍 (데이터 타입 안심, 타입 별칭, 튜플)"
 date:   2019-09-09
 categories: iOS, Swift
 ---
