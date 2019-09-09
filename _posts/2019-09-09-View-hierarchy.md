@@ -99,12 +99,12 @@ categories: iOS, Swift
 
 - 뷰의 바운드(bounds)는 뷰의 크기와 위치를 해당 뷰 자신의 좌표계를 기준으로 나타낸다.
 
-<img width="1500" height="1300" alt="image" scr="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/originFrameBound.png?raw=true">
+<img width="1500" alt="image" scr="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/originFrameBound.png?raw=true">
 
 #### 프레임과 바운드 구현
 
 
-<img width="1500" height="1300" alt="image" scr="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/originBoundsFrameExample.png?raw=true">
+<img width="1500" alt="image" scr="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/originBoundsFrameExample.png?raw=true">
 
 ---
 
@@ -129,7 +129,7 @@ categories: iOS, Swift
 - CGPoint의 x, y와 CGSize의 width, height는 모두 부동소수점 타입인 CGFloat으로 표현된다.
 
 
-<img width="1500" height="1300" alt="image" scr="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/uiviewFrame.png?raw=true">
+<img width="1500" alt="image" scr="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/uiviewFrame.png?raw=true">
 
 
 ---
