@@ -69,4 +69,33 @@ categories: iOS, Swift
 
 - - -
 
-### 
+### Push of Navigation Stack
+
+**내비게이션 스택에 새로운 뷰 컨트롤러가 푸시(push) 될 때 UIViewContoroller 인스턴스가 생성되고 내비게이션 스택에 추가된다.**
+
+- 1) 가장 먼저 내비게이션 스택에 루트 뷰 컨트롤러만 들어가 있는 초기상태.
+
+    - **내비게이션 컨트롤러를 생성할 때 반드시 루트 뷰 컨트롤러가 설정되어 있어야 한다**
+
+![naviPushImage_1](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/naviPushImage_1.png?raw=true)
+
+- 2) `뷰 컨트롤러 1로 이동` 이라는 버튼을 통해서 내비게이션 스택에 뷰 컨트롤러 1을 푸시(push)한다. 
+
+    - 뷰 컨트롤러1의 인스턴스가 생성되고 내비게이션 스택에 추가된다. 
+
+    - 뷰 컨트롤러1이 최상위 뷰 컨트롤러로써 화면에 보이게 된다.
+
+![naviPushImage_2](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/naviPushImage_2.png?raw=true)
+
+- 3) `뷰 컨트롤러2로 이동`이라는 버튼을 통해서 내비게이션 스택에 뷰 컨트롤러2도 푸시한다.
+
+    - 뷰 컨트롤러2의 인스턴스가 생성된다, 내비게이션 스택에 추가된다.
+    
+    - 뷰 컨트롤러 2가 최상위 뷰 컨트롤러로써 화면에 보이게 된다.
+    
+**여기서 주목할 점은 새로운 뷰 컨트롤러가 추가될 때도 아래에 있는 뷰 컨트롤러들(인스턴스)이 삭제되지 않고 유지되고 있다는 점이다.**
+
+![naviPushImage_3](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/naviPushImage_3.png)
+
+
+
