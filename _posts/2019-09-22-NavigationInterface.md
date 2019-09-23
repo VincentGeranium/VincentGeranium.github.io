@@ -95,7 +95,7 @@ categories: iOS, Swift
     
 **여기서 주목할 점은 새로운 뷰 컨트롤러가 추가될 때도 아래에 있는 뷰 컨트롤러들(인스턴스)이 삭제되지 않고 유지되고 있다는 점이다.**
 
-![naviPushImage_3](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/naviPushImage_3.png)
+![naviPushImage_3](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/naviPushImage_3.png?raw=true)
 
 - - -
 
