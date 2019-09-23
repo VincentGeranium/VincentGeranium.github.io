@@ -97,5 +97,28 @@ categories: iOS, Swift
 
 ![naviPushImage_3](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/naviPushImage_3.png)
 
+- - -
+
+### Pop of Navigation Stack
+
+**내비게이션 스택에 존재하는 뷰 컨트롤러가 팝 될 때 생성되었던 UIViewController의 인스턴스는 다른 곳에서 참조되고 있지 않다면 메모리에서 해제되고, 내비게이션 스택에서 삭제된다.**
+
+- 1) Push of Navigation stack의 3번째 그림, 마지막 상태에서 상단 내비게이션 바에 있는 뷰 컨트롤러1 버튼(back button)을 눌러서 뷰 컨트롤러2를 팝(pop)한다.
+
+    - 뷰 컨트롤러1이 최상위 뷰 컨트롤러로써 화면에 보여지게 된다.
+
+![naviPopImage_1](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/naviPopImage_1.png?raw=true)
+
+- 2) 내비게이션 바에서 루트 뷰 컨트롤러(back button)을 눌러 뷰 컨트롤러1 을 팝(pop)한다.
+
+    - 뷰 컨트롤러1이 메모리에서 해제되고 내비게이션 스택에서 삭제된다.
+    
+    - 루트 뷰 컨트롤러가 최상위 뷰 컨트롤러가 되고 화면에 보여진다
+    
+    - **루트 뷰 컨트롤러는 내비게이션 스택에서 팝(pop)되지 않는다**
+    
+        - 상단에 내비게이션 바를 통해서도 루트 뷰 컨트롤러를 팝(pop) 하는 버튼이 따로 생성되어 있지 않은 것을 확인할 수 있다.
+
+![naviPopImage_2](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/naviPopImage_2.png?raw=true)
 
 
