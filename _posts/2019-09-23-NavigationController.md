@@ -119,3 +119,27 @@ func application(_ appication: UIApplication, didFinishLaunchingWithOptions laun
     return true
 }
 ```
+
+- - -
+
+### 내비게이션 바의 구성
+
+- 내비게이션 바는 내비게이션 컨트롤러에 의해 생성된다
+
+- 내비게이션 바는 내비게이션 컨트롤러의 관리를 받는 모든 뷰 컨트롤러의 상단에 표시된다
+
+- 최상위 뷰 컨트롤러가 변경될 때마다 내비게이션 컨츠롤러는 내비게이션 바를 업데이트 한다.
+
+![navigationBar_1](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/navigationBar_1.png?raw=true)
+
+- 내비게이션 바는 다음과 같은 구조로 이루어져 있다
+
+    - 내비게이션 바는 내비게이션 인터페이스에서 상단에 표시된다
+    
+    - 내비게이션 바는 내비게이션 아이템을 가질 수 있다
+    
+    - 뷰 컨트롤러가 전환될 때마다 내비게이션 바의 컨텐츠들이(내비게이션 아이템) 바뀌지만 내비게이션 바 자체는 내비게이션 컨트롤러가 관리하는 하나의 공통 객체이다
+    
+    - 내비게이션 바의 타이틀을 통해 현재의 위치(최상위 뷰 컨트롤러)를 알 수 있다.
+
+![navigationBar_2](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/navigationBar_2.png?raw=true)
