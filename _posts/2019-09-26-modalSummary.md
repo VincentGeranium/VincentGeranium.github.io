@@ -7,6 +7,8 @@ categories: iOS, Swift
 
 이 포스트는 edwith의 부스트코스 iOS 프로그래밍을 듣고 정리한 내용입니다
 
+[실습 구현 자료](https://github.com/VincentGeranium/edwithStudy-project-2)
+
 - - -
 
 ### 모달 구현해보기
