@@ -93,7 +93,7 @@ func updateViewconstraints()
 ```swift
 
 override func viewDidLoad() {
-    super.viewDidLoad()\
+    super.viewDidLoad()
     // view가 메모리에 적재된 시점에서 필요한 코드 작성
 }
 ```
