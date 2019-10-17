@@ -99,3 +99,29 @@ categories: iOS, Swift
     - 레이아웃의 방향을 결정한다
     
     - **수직 : Verticla, 수평 : Horizontal**
+    
+- var spacing: CGFloat
+
+    - 스택뷰에 정렬된 뷰들 사이의 간격을 결정한다.
+    
+    - 기본 값은 0.0
+    
+- - -
+
+### UIStackView 클래스의 주요 메서드
+
+- func addArrangeSubview(UIView): arrangedSubviews
+
+    - 배열에 마지막 요소에 뷰를 추가한다
+    
+- func insertArrangedSubview(UIView, at: Int): arrangedSubviews
+
+    - 배열의 특정 인덱스에 뷰를 추가
+    
+- func removeArrangedSubview(UIView)
+
+    - 스택뷰의 arrangedSubviews 배열로부터 뷰를 제거
+
+- - -
+
+[Apple Documentaion about UIStackView](https://developer.apple.com/documentation/uikit/uistackview)
