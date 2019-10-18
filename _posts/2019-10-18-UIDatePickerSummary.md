@@ -7,7 +7,7 @@ categories: iOS, Swift
 
 이 포스트는 edwith의 부스트코스 iOS 프로그래밍을 보고 공부한 후 정리한 내용입니다
 
-[edwith iOS 프로그래밍 - ㅅTarget Action Design Pattern 활용](https://www.edwith.org/boostcourse-ios/lecture/16885/)
+[edwith iOS 프로그래밍 - Target Action Design Pattern 활용](https://www.edwith.org/boostcourse-ios/lecture/16885/)
 
 ---
 
@@ -198,4 +198,8 @@ categories: iOS, Swift
 - var timeZone: TimeZone!
 
     - DateFormatter의 시간대이다
+    
+- - -
+
+[dateFormatter Example Code](https://github.com/VincentGeranium/Swift-Study/tree/master/ExampleDateFormatterCode.playground)
     
