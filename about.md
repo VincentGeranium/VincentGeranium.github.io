@@ -31,22 +31,18 @@ permalink: /about/
     - Fishing Point (피싱 포인트)
     - Green Light (그린 라이트)
     - AirBnB Clone Project
-    
-- [TIL](#TIL)
 
 ---
-
-## TIL
 
 ### [Today I Learned](https://github.com/VincentGeranium/TIL/blob/master/Today_I_Learnd/README.md)
 
 ---
 
-# 프로젝트
+### 프로젝트
 
 ---
 
-## 팀 프로젝트
+### 팀 프로젝트
 
 ---
 
@@ -93,7 +89,7 @@ Back-end(3명), Front-end(4명), iOS(3명) 이 1팀을 이루어 한 프로젝�
 - AirBnB Clone Project(에어비엔비 클론 프로젝트)
 - 기간 : 2019.07.01 ~ 08.09
 - 역할 : 로그인, 회원가입 페이지 구현, 각종 UI/UX 구현
-- 사용기술 : Swift, URLSession 
+- 사용기술 : Swift, URLSession
 - 프로젝트 인원 : 10명 (iOS팀 : 3인)
 - [영상 링크](https://youtu.be/k47imZZucpY)
 - [AirBnB Clone Project](https://github.com/VincentGeranium/MyAirbnb)
