@@ -23,7 +23,7 @@ categories: iOS, Swift
 
 - 데이터 소스와 델리게이트 덕분에 테이블뷰를 매우 유연하게 만들 수 있다
 
-![DataSourceAndDelegateImg-1]()
+![DataSourceAndDelegateImg-1](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/DataSourceAndDelegateImg-1.png?raw=true)
 
 - - -
 
