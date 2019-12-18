@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "프로젝트 진행중에 배운 점 - Summary"
+title:  "프로젝트 진행중에 배운 점 - Summary(1)"
 date:   2019-12-18
 categories: iOS, Swift
 ---
