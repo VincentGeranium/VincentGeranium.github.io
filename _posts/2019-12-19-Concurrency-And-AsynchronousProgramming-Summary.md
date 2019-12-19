@@ -69,7 +69,7 @@ categories: iOS, Swift, CS
     
 - 프로그램 실행이 시작될 때부터 동작하는 스레드를 `메인 스레드`라고 하고 그 이외에 나중에 생성된 스레드를 `서브 스레드` 또는 `세컨터리 스레드`라고 한다.
 
-![ThreadImage]()
+![ThreadImage](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ThreadImage.png?raw=true)
 
 - - -
 
@@ -93,7 +93,7 @@ categories: iOS, Swift, CS
     
 - `동시성`을 이용한 `싱글 코어의 멀티 태스킹`은 각 스레드들이 `병렬적`으로 실행되는 것 처럼 보이지만 `사실은 서로 번갈아 가면서 실행되고 있는 방식`이다
 
-![ConcurrencyImage]()
+![ConcurrencyImage](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ConcurrencyImage.png?raw=true)
 
 - - -
 
@@ -109,13 +109,13 @@ categories: iOS, Swift, CS
 
 - `전체 데이터를 나누어 서브 데이터들로 만든 뒤, 서브 데이터들을 병렬 처리해서 작업을 빠르게 수행하는 방법`
 
-![DataParallelismImage]()
+![DataParallelismImage](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/DataParallelismImage.png?raw=true)
 
 #### 작업 병렬성 (Task Parallelism)
 
 - `서로 다른 작업을 병렬 처리하는 것을 말한다`
 
-![TaskParallelismImage]()
+![TaskParallelismImage](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/TaskParallelismImage.png?raw=true)
 
 - - -
 
@@ -128,9 +128,9 @@ categories: iOS, Swift, CS
     - 병렬성(Parallelism) : 통장을 만들어 온 N개의 대기열과 N명의 은행직원
 
 
-![ConcurrencyAndParallelismImage]()
+![ConcurrencyAndParallelismImage](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ConcurrencyAndParallelismImage.png?raw=true)
 
-![ConcurrencyAndParallelismImage-2]()
+![ConcurrencyAndParallelismImage-2](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ConcurrencyAndParallelismImage-2.png?raw=true)
 
 - `즉, 동시성은 싱글코어 및 멀티코어에서 모두 구현할 수 있지만, 병렬성은 멀티 코어에서만 구현할 수 있다`
 
