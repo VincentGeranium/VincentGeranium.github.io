@@ -5,6 +5,12 @@ date:   2019-12-19
 categories: iOS, Swift, CS
 ---
 
+이 포스트는 edwith의 iOS 프로그래밍을 공부하고 정리한 내용입니다
+
+[edwith iOS 프로그래밍 - 동시성 프로그래밍, 병렬성 프로그래밍과 비동기 프로그래밍](https://www.edwith.org/boostcourse-ios/lecture/16866/)
+
+- - -
+
 ### 동시성 프로그래밍, 병렬성 프로그래밍, 비동기 프로그래밍
 
 - 처음부터 이 모든 개념을 상세히 이해하기 어렵다

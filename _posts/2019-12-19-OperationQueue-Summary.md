@@ -5,6 +5,12 @@ date:   2019-12-19
 categories: iOS, Swift, CS
 ---
 
+이 포스트는 edwith의 iOS 프로그래밍을 공부하고 정리한 내용입니다
+
+[edwith iOS 프로그래밍 - OperationQueue](https://www.edwith.org/boostcourse-ios/lecture/16898/)
+
+- - -
+
 ### Operation Queue
 
 - 연산(Operation)의 실행을 관리하고 대기열의 동작을 관리

@@ -5,6 +5,12 @@ date:   2019-12-21
 categories: iOS, Swift
 ---
 
+이 포스트는 edwith의 iOS 프로그래밍을 공부하고 정리한 내용입니다
+
+[edwith iOS 프로그래밍 - Scroll View](https://www.edwith.org/boostcourse-ios/lecture/16900/)
+
+- - -
+
 ### What is Scroll View ?
 
 - 스크롤 뷰는 스크롤 뷰 안에 포함된 뷰를 상, 하, 좌, 우로 스크롤 할 수 있고 확대 및 축소가 가능한 뷰
