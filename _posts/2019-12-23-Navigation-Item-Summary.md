@@ -21,7 +21,7 @@ categories: iOS, Swift
     
 - 보통 내비게이션 바에서 보여지는 중앙 타이틀, 좌측 바 버튼, 우측 바 버튼 등이 내비게이션 아이템의 프로퍼티이다
 
-![navigationItemImage-1]()
+![navigationItemImage-1](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/navigationItemImage-1.png?raw=true)
 
 - - -
 
