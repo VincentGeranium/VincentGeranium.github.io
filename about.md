@@ -25,7 +25,7 @@ permalink: /about/
 
 ---
 
-# 목차
+## 목차
 
 - [팀 프로젝트](#팀-프로젝트)
     - Fishing Point (피싱 포인트)
@@ -37,9 +37,7 @@ permalink: /about/
     - 회원가입 화면
     - 기상정보 애플리케이션
 
----
-
-### [Today I Learned](https://github.com/VincentGeranium/TIL/blob/master/Today_I_Learnd/README.md)
+- [Today I Learned](https://github.com/VincentGeranium/TIL/blob/master/Today_I_Learnd/README.md)
 
 ---
 
