@@ -32,7 +32,7 @@ permalink: /about/
     - Green Light (그린 라이트)
     - AirBnB Clone Project
 
-- [개인 프로젝트 (edwith iOS Programming)](https://github.com/VincentGeranium/Resume#boostcourse)
+- [개인 프로젝트 (edwith iOS Programming)](#boostcourse)
     - 음원재생기 애플리캐이션
     - 회원가입 화면
     - 기상정보 애플리케이션
