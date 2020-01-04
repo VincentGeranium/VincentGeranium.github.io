@@ -32,6 +32,11 @@ permalink: /about/
     - Green Light (그린 라이트)
     - AirBnB Clone Project
 
+- [개인 프로젝트 (edwith iOS Programming)](https://github.com/VincentGeranium/Resume#boostcourse)
+    - 음원재생기 애플리캐이션
+    - 회원가입 화면
+    - 기상정보 애플리케이션
+
 ---
 
 ### [Today I Learned](https://github.com/VincentGeranium/TIL/blob/master/Today_I_Learnd/README.md)
@@ -98,7 +103,55 @@ Back-end(3명), Front-end(4명), iOS(3명) 이 1팀을 이루어 한 프로젝�
 
 ---
 
----
+### boostcourse
+
+- - -
+
+### 음원 재생기 어플리캐이션
+
+edwith boostcourse iOS Programming 첫 번째 프로젝트 입니다.
+
+- 기간 : 2019.09.21
+- 역활 : 앱 전체 구현
+- 사용기술 : Swift, AVFoundation
+- 프로젝트 인원 : 1명
+- [Music Player Project Repo](https://github.com/VincentGeranium/edwithStudy-project-1)
+
+<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/musicAppVideo.gif?raw=true">
+
+- - -
+
+### 회원가입 화면 구현
+
+edwith boostcourse iOS Programming 두 번째 프로젝트 입니다.
+
+- 기간 : 2019.12.20 ~ 22
+- 역활 : 앱 전체 구현
+- 사용기술 : Swift, Foundation
+- 프로젝트 인원 : 1명
+- [Sign Up Project Repo](https://github.com/VincentGeranium/edwithStudy-project-3)
+
+<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/PJT-2.gif?raw=true">
+
+<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/PJT-1.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/PJT-2.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/PJT-3.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/PJT-4.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/PJT-5.png?raw=true">
+
+- - -
+
+### 기상정보 애플리케이션
+
+edwith boostcourse iOS Programming 세 번째 프로젝트 입니다.
+
+- 기간 : 2019.12.29 ~ 2020.01.09
+- 역활 : 앱 전체 구현
+- 사용기술 : Swift, Foundation
+- 프로젝트 인원 : 1명
+- [Weather Today Project Repo](https://github.com/VincentGeranium/edwithStudy-project-4)
+
+<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherToday-4.gif?raw=true">
+
+<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherToday-1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherToday-2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherToday-3.PNG?raw=true">
+
+- - -
 
 This is Vincent Blog
 
