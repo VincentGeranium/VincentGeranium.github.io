@@ -13,7 +13,7 @@ categories: iOS, Swift
 
 ### 컬렉션뷰 데이터소스와 델리게이트
 
-![dataSourceAndDelegateImage]()
+![dataSourceAndDelegateImage](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/dataSourceAndDelegateImage.png?raw=true)
 
 #### 데이터소스
 
