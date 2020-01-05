@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Collection View ?"
+title:  "Collection View Summary"
 date:   2020-01-04
 categories: iOS, Swift
 ---
