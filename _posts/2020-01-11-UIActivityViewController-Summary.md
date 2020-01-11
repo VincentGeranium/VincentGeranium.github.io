@@ -19,7 +19,7 @@ categories: iOS, Swift
 
 - iOS 6 이상부터 사용 가능한 UIActivityViewController 클래스는 아래의 이미지와 같은 내보내기 서비스를 손쉽게 사용할 수 있도록 해준다.
 
-![ActivityVCImage-1]()
+![ActivityVCImage-1](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ActivityVCImage-1.png?raw=true)
 
 - - -
 
