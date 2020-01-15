@@ -145,5 +145,128 @@ categories: iOS, Swift
 
     - A representation of Photos asset grouping, such as a moment, user-creared album, or smart album
     
-- Moment, 사용자 제작 앨범 또는 스마트 앨범과 같은 Photo  asset 그룹의 표현이다
+- Moment, 사용자 제작 앨범 또는 스마트 앨범과 같은 Photo asset 그룹의 표현이다
+
+- PHCollection의 하위 클래스
+
+- Photos framework에서 collection 객체(asset collections포함)는 해당 구성원 객체를 직접 참조하지 않는다
+
+- collection객체를 직접 참조하는 다른 객체는 없다
+
+- asset collections의 멤버를 검색하려면 fetchAssets(: options :)와 같은 PHAsset 클래스 메소드를 사용한다
+
+- asset collections을 찾으려면 Fetching Asset Collections에 나열된 메소드 중 하나를 사용
+
+    - [Apple Developer - Docs about Fetching Asset Collections](https://developer.apple.com/documentation/photokit/phassetcollection#1656287)
+
+- 사용자의 명시적인 승인 필요
+
+- asset과 collection lists와 마찬가지로, asset collections는 변경 불가
+
+- asset collections를 생성, 이름 변경 또는 삭제하거나 asset collections에 구성원 추가, 제거 또는 재정렬하려면 사진 라이브러리 변경 블록 내에 PHAssetCollectionChangeRequest 객체를 만든다
+
+    - 변경 요청을 사용하고 블록을 변경하여 사진 라이브러리를 업데이트 해야한다
+    
+    - 자세한 내용은 PHPhotoLibrary 참고
+    
+        - PHPhotoLibrary : A shared object that manages access and changes to the user's shared photo library
+        
+        - [Apple Developer - Docs about PHPhotoLibrary](https://developer.apple.com/documentation/photokit/phphotolibrary)
+
+- - -
+
+### PHCollectionList
+
+- class
+
+    - A group containing Photos asset collections, such as Moments, Years, or folders of uesr-created albums
+    
+- asset collections의 모음 이라고 생각하면 된다
+
+- PHCollection의 하위 클래스
+
+- Photos framework에서 collection객체(asset collection포함)는 해당 구성원 객체를 직접 참조하지 않는다
+
+- collection 객체를 직접 참조하는 다른 객체는 없다
+
+- collection list의 멤버를 검색하려면 fetchCollections(in: options:)와 같은 PHCollection 클래스 메소드를 사용하여 가져온다
+
+- 상위 폴더가 없는 앨범 폴더와 같은 collection list 계층의 루트에서 객체를 찾으려면 fetchTopLevelUserCollections(with:)메소드를 사용한다
+
+- 사용자의 명시적인 승인 필요
+
+- collection list를 생성, 이름 변경 또는 삭제, collection list에 멤버를 추가, 제거 또는 재정렬 하려면 사진 라이브러리 변경 블록내에 PHCollectionListChangeRequest 객체를 만든다
+
+    - 변경 요청을 사용하고 블록을 변경하여 사진 라이브러리를 업데이트
+    
+    - 자세한 내용은 PHPhotoLibrary 참고
+    
+        - PHPhotoLibrary : A shared object that manages access and changes to the user's shared photo library
+        
+        - [Apple Developer - Docs about PHPhotoLibrary](https://developer.apple.com/documentation/photokit/phphotolibrary)
+        
+- - -
+
+### PHPhotoLibrary
+
+- class
+
+    - A shared object that manages access and chages to the user's shared photo library
+    
+- 사용자의 공유 사진 라이브러리 접근 및 변경을 관리하는 shared 객체
+
+- NSObject의 하위 클래스
+
+- shared PHPhotoLibrary객체는 로컬 디바이스에 저장된 asset과(활성화 된 경우) iCould Photos에 저장된 asset을 포함하여 사진앱에서 관리하는 전체 asset 및 collection 집합을 나타낸다
+
+- PHPhotoLibrary 객체는 다음 작업에 사용된다
+
+    - 앱이 사진 컨텐츠에 접근 할 수 있는 사용자 권한을 얻거나 확인
+    
+    - asset 및 collection을 변경
+    
+        - 예를들어, asset 메타데이터 또는 콘텐츠 편집, 새 asset 삽입 또는 collection 구성원 재배치
+        
+    - 라이브러리가 변경 할 때 전송된 업데이트 메세지 등록
+- - -
+
+### 용어 정리
+
+- Assets: Image, Videos and Live Photos
+
+- Collections of assets: Albums or Moments
+
+- Lists of collections: Album folders or Moment clusters
+
+    - 위 클래스 인스턴스는 읽기전용 (read-only), 변경 불가, 메타데이터만 포함
+
+- - -
+
+### PHFetchResult
+
+- Generic Class
+
+    - An orderd list of assets or collections returned from a Photos fetch method
+    
+- fetch method에서 반환된 asset또는 collection의 정렬된 list
+
+- PHAsset, PHCollection, PHAssetCollection 및 PHCollectionList 클래스의 클래스 메소드를 사용하여 객체를 검색(retrieve)하면, Photos는 결과 객체를 fetch result에 제공한다
+
+- fetch result의 내용은 NSArray 클래스에서 사용하는 것과 동일한 메소드 및 convention을 사용하여 접근한다
+
+- 그러나 NSArray객체와 달리, PHFetchResult객체는 필요에 따라 Photos 라이브러리에서 내용을 동적으로 로드하므로 많은 수의 결과를 처리할 때도 최적의 성능을 제공한다
+
+- fetch result는 내용에 대한 thread-safe한 접근을 제공한다
+
+- fetch 후에 fetch result의 카운트 값은 일정하며 fetch result의 모든 객체는 동일한 localIdentifier을 유지한다.
+
+    - 업데이트 된 컨텐츠를 가져오려면 shared PHPhotoLibrary 객체에 change observer를 등록
+    
+- fetch result는 컨텐츠를 캐시하여, 객체 한 묶음(batch)을 가장 최근에 엑세스한 인덱스 주위에 유지한다
+
+- 배치 외부의 객체는 더이상 캐시되지 않으므로 이러한 객체에 접근하면 해당 객체를 다시 가져올 수 있다
+
+    - 이 프로세스를 수행하면 해당 객체에서 이전에 읽은 값이 변경 될 수 있다.
+    
+- - -
 
