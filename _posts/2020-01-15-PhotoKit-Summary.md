@@ -270,3 +270,24 @@ categories: iOS, Swift
     
 - - -
 
+### PHFetchOptions
+
+- class
+
+    - A set of options that affect the filtering, sorting, and management of results that Photos returns when you fetch asset or colletion objects.
+    
+- fetch하는데 사용되는 옵션
+
+- asset 또는 collection 객체를 가져올 때 Photos에서 반환하는 결과(result)의 필터링, 정렬 및 관리에 영향을 주는 일련의 옵션
+
+- PHAsset, PHCollection, PHAssetCollection 및 PHCollectionList 클래스에서 클래스 메서드를 사용하여 asset 또는 collection을 fetch하면, `요청한 객체가 포함된 PHFetchResult 객체가 생성된다`
+
+- 지정한 옵션에 따라 fetch result에 포함된 객체, 정렬방법, fetch result의 변경사항을 앱에 알리는 방법을 제어 할 수 있다
+
+- Photos는 predicate 및 sortDescriptor 프로퍼티에 대해, 제한된 key set만 지원한다
+
+    - 사용 가능한 key set은 assets 또는 collection을 가져오는 데 사용하는 클래스에 따라 다르다
+
+![keySet-1](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/keySet-1.png?raw=true)
+
+- - -
