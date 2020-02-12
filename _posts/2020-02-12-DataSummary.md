@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JSON 데이터 형식과 Swift 형식으로의 변경"
-date:   2020-02-11
+date:   2020-02-12
 categories: iOS, Swift
 ---
 
