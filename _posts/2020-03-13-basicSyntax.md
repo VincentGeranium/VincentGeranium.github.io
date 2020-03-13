@@ -11,10 +11,13 @@ categories: iOS, Swift
 
 ### 예제 코드
 
-[Computed Properties Example Code - 1](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-13-ComputedPropertyExample.playground)
-[Computed Properties Example Code - 2](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-13-ComputedPropertyExample-2.playground)
-[Computed Properties Example Code - 3](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-13-ComputedPropertyExample-3.playground)
-[Computed Properties Example Code - 4](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-13-ComputedPropertyExample-4.playground)
+- [Computed Properties Example Code - 1](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-13-ComputedPropertyExample.playground)
+
+- [Computed Properties Example Code - 2](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-13-ComputedPropertyExample-2.playground)
+
+- [Computed Properties Example Code - 3](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-13-ComputedPropertyExample-3.playground)
+
+- [Computed Properties Example Code - 4](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-13-ComputedPropertyExample-4.playground)
 
 - - -
 
