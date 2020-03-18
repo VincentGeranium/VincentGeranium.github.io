@@ -11,7 +11,7 @@ categories: iOS, Swift
 
 ### 예제 코드
 
-- [Global Variable and Local Variable Example Code](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-17-GlobalVariableAndLocalVariableExample.playground)
+- [Global Variable and Local Variable Example Code](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-03-18-GlobalVariableAndLocalVariableExample.playground)
 
 - - -
 
