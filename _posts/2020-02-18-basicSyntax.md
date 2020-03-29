@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "기본 문법 공부(while 구문, repeat-while 구문, 구문 이름표) - 200218"
-date:   2020-02-17
+date:   2020-02-18
 categories: iOS, Swift
 ---
 
