@@ -31,11 +31,11 @@ categories: iOS, Swift
 
 ### 접근제어 구현
 
-- 접근제어(Access Control)은 접근수준(Access Level)을 지정해서 구현할 수 있다.
+- `접근제어(Access Control)은 접근수준(Access Level)을 지정해서 구현할 수 있다.`
 
-- 각각의 접근수준을 요소 앞에 지정해주기만 하면 된다.
+- `각각의 접근수준을 요소 앞에 지정해주기만 하면 된다.`
 
-- internal(내부 접근수준)은 기본 접근수준이므로 굳이 표기해주지 않아도 된다.
+- `internal(내부 접근수준)은 기본 접근수준`이므로 굳이 `표기해주지 않아도 된다.`
 
 ![AccessControlExampleImage-1](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/AccessControlExampleImage-1.png?raw=true)
 
@@ -43,13 +43,13 @@ categories: iOS, Swift
 
 ### 접근제어 구현 참고사항
 
-- 모든 타입에 적용되는 접근수준의 규칙은 '상위 요소보다 하위 요소가 더 높은 접근수준을 가질 수 없다'이다.
+- `모든 타입에 적용되는 접근수준의 규칙은 '상위 요소보다 하위 요소가 더 높은 접근수준을 가질 수 없다'이다.`
 
 ![SwiftAccessControlImage](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/SwiftAccessControl.png?raw=true)
 
-- 위의 그림에서 보이는 것처럼 비공개 접근수준(Private)으로 정의한 구조체 내부의 프로퍼티로 내부 접근수준(Internal)이나 공개 접근수준(Public)을 갖는 프로퍼티를 정의할 수 없다.
+- 위의 그림에서 보이는 것처럼 `비공개 접근수준(Private)으로 정의한 구조체 내부의 프로퍼티로 내부 접근수준(Internal)이나 공개 접근수준(Public)을 갖는 프로퍼티를 정의할 수 없다.`
 
-- 또, 함수의 매개변수(Parameter)로 특정 접근수준이 부여된 타입이 전달되거나 반환된다면, 그 타입의 접근수준보다 함수의 접근수준이 높게 설정될 수 없다.
+- 또, `함수의 매개변수(Parameter)로 특정 접근수준이 부여된 타입이 전달되거나 반환된다면, 그 타입의 접근수준보다 함수의 접근수준이 높게 설정될 수 없다.`
 
 - - -
 
@@ -63,7 +63,7 @@ categories: iOS, Swift
 
 ![CannotBeDeclaredAccessLevelImage-2](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/CannotBeDeclaredAccessLevelImage-2.png?raw=true)
 
-- 함수뿐만 아니라 튜플의 내부 요소 타입 또한 튜플의 접근수준보다 같거나 높아야 한다.
+- `함수뿐만 아니라 튜플의 내부 요소 타입 또한 튜플의 접근수준보다 같거나 높아야 한다.`
 
 - - -
 
@@ -88,11 +88,11 @@ aInstance.internalProperty = 1 // 같은 모듈이므로 호출 가능
 aInstance.filePrivateProperty = 1 // 다른 파일이므로 접근 불가 - 오류
 ```
 
-- 위의 코드처럼 접근수준에 따라 접근이 불가능항 경우가 생긴다.
+- 위의 코드처럼 `접근수준에 따라 접근이 불가능한 경우가 생긴다.`
 
-    - 때문에 프레임워크를 만들 때는 다른 모듈에서 특정 기능에 접근할 수 있도록 API로 사용할 기능을 공개 접근수준(Public)으로 지정해주어야 한다.
+    - `때문에 프레임워크를 만들 때는 다른 모듈에서 특정 기능에 접근할 수 있도록 API로 사용할 기능을 공개 접근수준(Public)으로 지정해주어야 한다.`
     
-    - 그 외의 요소는 내부 접근수준 또는 비공개 접근수준으로 적절히 설정하면 된다.
+    - `그 외의 요소는 내부 접근수준 또는 비공개 접근수준으로 적절히 설정하면 된다.`
     
 - - -
 
@@ -100,13 +100,10 @@ aInstance.filePrivateProperty = 1 // 다른 파일이므로 접근 불가 - 오�
 
 ![CannotBeDeclaredAccessLevelImage-3](https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/CannotBeDeclaredAccessLevelImage-3.png?raw=true)
 
-- 열거형의 접근수준을 구현할 떄 열거형 내부의 각 case별로 따로 접근수준을 부여할 수는 없다.
+- `열거형의 접근수준을 구현할 때 열거형 내부의 각 case별로 따로 접근수준을 부여할 수는 없다.`
 
-- 각 case의 접근수준은 열거형 자체의 접근수준을 따른다.
+- `각 case의 접근수준은 열거형 자체의 접근수준을 따른다.`
 
-- 열거형의 원시 값 타입으로 열거형의 접근수준보다 낮은 접근수준의 타입이 올 수는 없다.
+- `열거형의 원시 값(rawValue) 타입으로 열거형의 접근수준보다 낮은 접근수준의 타입이 올 수는 없다.`
 
-    - 연관 값의 타입 또한 마찬가지이다.
-
-
-
+    - `연관 값의 타입 또한 마찬가지이다.`
