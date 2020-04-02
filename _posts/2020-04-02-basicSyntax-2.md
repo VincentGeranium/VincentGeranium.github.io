@@ -44,7 +44,7 @@ public func sorted(by areInIncreasingOrder: (Element, Element) -> Bool) -> [Elem
 
 ### Sorted(by:) 메서드를 이용하여 설명하는 클로저(Closure) - 1
 
-<img width="500"s alt="ClosureExampleImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ClosureExampleImage-1.png?raw=true">
+<img width="500" alt="ClosureExampleImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ClosureExampleImage-1.png?raw=true">
 
 - 위의 이름 배열을 이용, String 타입의 배열에 이름을 넣어 영문 알파벳을 내림차순으로 정렬할 것이다.
 
@@ -54,7 +54,7 @@ public func sorted(by areInIncreasingOrder: (Element, Element) -> Bool) -> [Elem
     
         - true를 반환하면 첫 번째 전달인자가 두 번째 전달인자보다 앞에 온다.
         
-<img width="1058"s alt="ClosureExampleImage-2" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ClosureExampleImage-2.png?raw=true">
+<img width="1058" alt="ClosureExampleImage-2" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ClosureExampleImage-2.png?raw=true">
 
 - 위의 그림에 나오는 함수는 매개변수로 String 타입 두 개를 가지며, Bool 타입을 반환하는 함수이다.
 
@@ -100,7 +100,7 @@ public func sorted(by areInIncreasingOrder: (Element, Element) -> Bool) -> [Elem
 
 ### Sorted(by:) 메서드를 이용하여 설명하는 클로저(Closure) - 3
 
-<img width="758"s alt="ClosureExampleImage-3" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ClosureExampleImage-3.png?raw=true">
+<img width="758" alt="ClosureExampleImage-3" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ClosureExampleImage-3.png?raw=true">
 
 - 위의 그림은 backwards(first:second:) 함수를 클로저 표현으로 대체한것이다.
 
