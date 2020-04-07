@@ -25,7 +25,7 @@ categories: iOS, Swift
 
 ### 참고 자료
 
-- [Swift.org](https://docs.swift.org/swift-book/LanguageGuide/Functions.html)
+- [Swift.org](https://docs.swift.org/swift-book/LanguageGuide/Closures.html)
 
 - [Closure Summary](https://vincentgeranium.github.io/ios,/swift/2020/04/02/basicSyntax-1.html)
 
