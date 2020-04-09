@@ -33,7 +33,7 @@ categories: iOS, Swift
 
 ### 오류가 발생하는 hasElements 함수
 
-<img width="1058" alt="withoutActuallyEscapingImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/withoutActuallyEscapingImage-1.png?raw=true">
+<img width="1058" height="472" alt="withoutActuallyEscapingImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/withoutActuallyEscapingImage-1.png?raw=true">
 
 - 위의 코드에서 보면 함수 hasElements(in:match:)는 in 매개변수(Parameter)로 검사할 배열(Array)을 전달받으며, match라는 매개변수로 검사를 실행할 클로저(Closure)를 받아들인다.
 
