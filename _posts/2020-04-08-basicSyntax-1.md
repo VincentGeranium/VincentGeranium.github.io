@@ -11,7 +11,7 @@ categories: iOS, Swift
 
 ### 예제 코드
 
-- [Reference Type Closure Example Code](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-04-08-ReferenceTypeClosureExample-1playground.playground)
+- [Closure is Reference Type Example Code](https://github.com/VincentGeranium/Swift-Study/tree/master/2020-04-08-ReferenceTypeClosureExample-1playground.playground)
 
 - - -
 
@@ -21,19 +21,29 @@ categories: iOS, Swift
 
 - [값 획득 Summary](https://vincentgeranium.github.io/ios,/swift/2020/04/07/basicSyntax-2.html)
 
+- [값 타입과 참조 타입 Summary](https://vincentgeranium.github.io/ios,/swift/2020/02/29/basicSyntax.html)
+
+- [변수와 상수 Summary](https://vincentgeranium.github.io/swift/2019/03/10/Swift-Study-1.html)
+
 - - -
 
-### 클로저는 참조 타입
+### 클로저는 참조 타입 (Closure is Reference Type)
 
-- [값 획득(Capturing Values) Summary](https://vincentgeranium.github.io/ios,/swift/2020/04/07/basicSyntax-2.html)의 그림 속 코드에서 incrementByTwo와 incrementByTen은 모두 상수이다.
+<img width="1058" alt="CapturingValuesImage-3" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/CapturingValuesImage-3.png?raw=true">
 
-    - 이 두 상수 클로저는 값 획득(Capturing Values)를 통해 runningTotal 변수를 계속해서 증가시킬 수 있다. 그 이유는 함수와 클로저는 참조 타입이기 때문이다.
+- 위의 그림 속 코드는 값 획득(Capturing Values) Summary의 코드이다. 
+
+    - 그 코드 속에서 보면 `incrementByTwo와 incrementByTen은 모두 상수이다.`
+
+    - 이 두 상수(Constant) `클로저는 값 획득(Capturing Values)`를 통해 `runningTotal 변수(Variable)를 계속해서 증가시킬 수 있다.`
+
+    - `그 이유는 함수와 클로저는 참조 타입이기 때문이다.`
     
-- 함수나 클로자를 상수나 변수에 할당할 때마다 사실은 상수나 변수에 함수나 클로저의 참조를 설정하는 것이다.
+- `함수나 클로저를 상수나 변수에 할당할 때마다 사실은 상수나 변수에 함수나 클로저의 참조(Reference)를 설정하는 것이다.`
 
-    - 다시 말하자면 incrementByTwo라는 상수에 클로자를 할당한다는 것은 클로저의 내용물, 즉 값을 할당하는 것이 아니라 해당 클로저의 참조를 할당하는 것이다.
+    - 다시 말하자면 `incrementByTwo라는 상수에 클로저(Closure)를 할당한다는 것`은 클로저의 내용물, 즉 `값을 할당하는 것이 아니라 해당 클로저의 참조를 할당하는 것이다.`
     
-    - 결국 클로저의 참조를 다른 상수에 할당해준다면 이는 두 상수가 모두 같은 클로저를 가리킨다는 뜻이다.
+    - `결국 클로저의 참조를 다른 상수에 할당해준다면 이는 두 상수가 모두 같은 클로저를 가리킨다는 뜻이다.`
     
 - - -
 
@@ -41,6 +51,6 @@ categories: iOS, Swift
 
 <img width="1058" alt="ReferenceTypeClosureImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ReferenceTypeClosureImage-1.png?raw=true">
 
-- 위의 코드를 보면 두 상수는 같은 클로저를 참조하기 때문에 동일한 클로저가 동작하는 것을 확인할 수 있다.
+- `위의 코드를 보면 두 상수는 같은 클로저를 참조하기 때문에 동일한 클로저가 동작하는 것을 확인할 수 있다.`
 
 - - -
