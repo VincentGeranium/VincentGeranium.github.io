@@ -46,6 +46,7 @@ categories: iOS, Swift
 - 강제 추출 시 옵셔널에 값이 없다면, 즉 nil 이라면 런타임 오류가 발생한다.
 
 <img width="1058" alt="optionalUnwrappingImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/optionalUnwrappingImage-1.png?raw=true">
+
 <img width="1058" alt="optionalUnwrappingImage-2" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/optionalUnwrappingImage-2.png?raw=true">
 
 - 런타임 오류의 가능성을 항상 내포하기 때문에 옵셔널 강제 추출 방식은 사용하는 것을 지양해야 한다.
