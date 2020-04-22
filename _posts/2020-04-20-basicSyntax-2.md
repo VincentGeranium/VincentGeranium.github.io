@@ -21,6 +21,12 @@ categories: iOS, Swift
 
 - [Swift.org](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html)
 
+- [기본 문법 공부(프로퍼티, 저장 프로퍼티)](https://vincentgeranium.github.io/ios,/swift/2020/03/01/basicSyntax.html)
+
+- [기본 문법 공부(연산 프로퍼티)](https://vincentgeranium.github.io/ios,/swift/2020/03/13/basicSyntax.html)
+
+- [기본 문법 공부(프로퍼티와 메서드 - 타입 메서드)](https://vincentgeranium.github.io/ios,/swift/2020/03/23/basicSyntax.html)
+
 - - -
 
 ### 프로토콜 요구사항
