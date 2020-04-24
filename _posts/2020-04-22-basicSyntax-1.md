@@ -23,9 +23,9 @@ categories: iOS, Swift
 
 ### 프로토콜의 상속과 클래스 전용 프로토콜
 
-- 프로토콜은 하나 이상의 프로토콜을 상속받아 기존 프로토콜의 요구사항보다 더 많은 요구사항을 추가할 수 있다.
+- `프로토콜은 하나 이상의 프로토콜을 상속받아 기존 프로토콜의 요구사항보다 더 많은 요구사항을 추가할 수 있다.`
 
-- 프로토콜 상속 문법은 클래스의 상속 문법과 유사하다.
+- `프로토콜 상속 문법은 클래스의 상속 문법과 유사하다.`
 
 <img width="1058" alt="ProtocolExampleImage-13" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ProtocolExampleImage-13.png?raw=true">
 

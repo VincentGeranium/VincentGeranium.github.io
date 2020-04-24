@@ -1,17 +1,13 @@
 ---
 layout: post
 title:  "기본 문법 공부(연산자(Basic Operator) - 사용자정의 연산자)"
-date:   2020-04-22
+date:   2020-04-23
 categories: iOS, Swift
 ---
 
 이 포스트는 야곰님의 Swift 프로그래밍 2판을 보고 스스로 공부한 내용을 정리한 포스트 입니다.
 
 - - -
-
-### 예제 코드
-
-- []()
 
 - - -
 
