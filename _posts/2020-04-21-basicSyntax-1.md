@@ -105,7 +105,7 @@ categories: iOS, Swift
 
 ### 실패 가능한 이니셜라이저 요구
     
-<img width="1058" alt="protocolExampleImage-12" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/protocolExampleImage-12.png?raw=true">
+<img width="1058" alt="protocolExampleImage-12re" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/protocolExampleImage-12.png?raw=true">
 
 - `프로토콜은 일반 이니셜라이저 외에도 '실패 가능한 이니셜라이저'를 요구할 수도 있다.`
 
