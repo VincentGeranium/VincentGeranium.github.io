@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "기본 문법 공부(연산자(Basic Operator) - 사용자정의 연산자)"
+title:  "기본 문법 공부(연산자(Basic Operator) - 사용자정의 연산자(Custom Operators))"
 date:   2020-04-23
 categories: iOS, Swift
 ---
@@ -13,11 +13,11 @@ categories: iOS, Swift
 
 ### 참고 자료
 
-- [Swift.org](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
+- [Swift.org](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html)
 
 - - -
 
-### 사용자정의 연산자
+### 사용자정의 연산자 (Custom Operators)
 
 - `스위프트에서는 사용자(프로그래머)의 입맛에 맞게 연산자 역활을 부여할 수 있다.`
 

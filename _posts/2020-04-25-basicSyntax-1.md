@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "기본 문법 공부(연산자(Basic Operator) - 후위 연산자 정의와 구현)"
+title:  "기본 문법 공부(연산자(Basic Operator) - 후위 연산자(Postfix Operator) 정의와 구현)"
 date:   2020-04-25
 categories: iOS, Swift
 ---
@@ -17,7 +17,7 @@ categories: iOS, Swift
 
 ### 참고 자료
 
-- [Swift.org](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html)
+- [Swift.org](https://docs.swift.org/swift-book/LanguageGuide/AdvancedOperators.html)
 
 - - -
 
