@@ -23,19 +23,25 @@ categories: iOS, Swift
 
 ### 후위 연산자 정의와 구현
 
-- 후위 연산자를 사용자정의하는 방법은 사용자정의 전위 연산자를 구현한 것과 크게 다르지 않다.
+- `후위 연산자를 사용자정의하는 방법은 사용자정의 전위 연산자를 구현한 것과 크게 다르지 않다.`
+
+    - 아래의 코드 확인.
+    
+    - `postfix operator` 키워드로 사용자정의 후위 연산자 정의
+    
+    - `postfix func` 키워드로 사용자정의 후위 연산자 함수 구현
 
 <img width="1058" alt="basicOperatorImage-5" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/basicOperatorImage-5.png?raw=true">
 
-- 위의 코드는 정수 타입의 값 뒤에 '**' 를 붙이면 10을 더해주는 사용자정의 후위 연산자 정의와 함수를 구현한 코드이다.
+- 위의 코드는 `정수 타입의 값 뒤에 '**' 를 붙이면 10을 더해주는 사용자정의 후위 연산자 정의와 함수를 구현한 코드이다.`
 
-- 후위 연산자의 함수 구현 앞에는 'postfix'라는 키워드를 붙여준다.
+- `후위 연산자의 함수 구현 앞에는 'postfix'라는 키워드를 붙여준다.`
 
 <img width="1058" alt="basicOperatorImage-6" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/basicOperatorImage-6.png?raw=true">
 
-- 하나의 피연산자에 전위 연산과 후위 연산을 한 줄에 사용하게 되면 후위 연산을 먼저 수행한다.
+- `하나의 피연산자에 전위 연산과 후위 연산을 한 줄에 사용`하게 되면 `후위 연산을 먼저 수행`한다.
 
-- 위의 코드를 통해 전위 연산자와 후위 연산자를 한 번에 사용하게 되면 후위 연산을 먼저 실행한다는 것을 확인할 수 있다.
+- `위의 코드를 통해 전위 연산자와 후위 연산자를 한 번에 사용하게 되면 후위 연산을 먼저 실행한다는 것을 확인할 수 있다.`
 
 - - -
 - - -
