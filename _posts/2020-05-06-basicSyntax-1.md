@@ -24,21 +24,21 @@ categories: iOS, Swift
 - - -
 - - -
 
-### 익스텐션(Extension)으로 추가할 수 있는 기능 - 연산 프로퍼티
+### 익스텐션(Extension)으로 추가할 수 있는 기능 - 연산 프로퍼티(Computed Property)
 
-- 익스텐션을 통해서 타입에 연산 프로퍼티를 추가할 수 있다.
+- `익스텐션을 통해서 타입에 연산 프로퍼티를 추가할 수 있다.`
 
 <img width="1058" alt="extensionExampleImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/extensionExampleImage-1.png?raw=true" title="extensionExampleImage-1">
 
-- 위 코드의 익스텐션은 Int 타입에 두 개의 연산 프로퍼티를 추가한 것이다.
+- `위 코드의 익스텐션은 Int 타입에 두 개의 연산 프로퍼티를 추가한 것이다.`
 
     - Int 타입의 인스턴스가 홀수인지 짝수인지 판별하여 Bool 타입으로 알려주는 연산 프로퍼티이다.
     
-- 익스텐션으로 Int 타입에 추가해준 연산 프로퍼티는 Int 타입의 어떤 인스턴스에도 사용이 가능하다.
+- `익스텐션으로 Int 타입에 추가해준 연산 프로퍼티는 Int 타입의 어떤 인스턴스에도 사용이 가능하다.`
 
-- 위의 코드처럼 인스턴스 연산 프로퍼티를 추가할 수도 있으며, static 키워드를 사용하여 타입 연산 프로퍼티도 추가할 수 있다.
+- `위의 코드처럼 인스턴스 연산 프로퍼티(Instance Computed Property)를 추가할 수도 있으며, static 키워드를 사용하여 타입 연산 프로퍼티(Type Computed Property)도 추가할 수 있다.`
 
-- 익스텐션으로 연산 프로퍼티를 추가할 수는 있지만, 저장 프로퍼티는 추가할 수 없다. 또, 타입에 정의되어 있는 기존 프로퍼티에 프로퍼티 감시자를 추가할 수 없다.
+- `익스텐션(Extension)으로 연산 프로퍼티(Computed Property)를 추가할 수는 있지만, 저장 프로퍼티(Stored Property)는 추가할 수 없다. 또, 타입에 정의되어 있는 기존 프로퍼티에 프로퍼티 감시자(Property Observer)를 추가할 수 없다.`
 
 - - -
 - - -
