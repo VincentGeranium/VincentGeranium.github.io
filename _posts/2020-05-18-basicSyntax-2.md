@@ -77,4 +77,4 @@ convertedValue = 5.5 // Error !!
     
         - StringProtocol 타입의 데이터 text를 Int 타입으로 변경할 때, 적절하지 못한 매개변수가 전달된다면 새로운 인스턴스가 생성되지 않을 수 있다는 뜻이다.
         
-<img width="1058" alt="TypeCastingExampleImg-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/TypeCastingExampleImg-2.png?raw=true" title="TypeCastingExampleImg-1">
+<img width="1058" alt="TypeCastingExampleImg-2" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/TypeCastingExampleImg-2.png?raw=true" title="TypeCastingExampleImg-2">
