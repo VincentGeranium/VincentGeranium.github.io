@@ -15,7 +15,7 @@ categories: iOS, Swift
 - - -
 - - -
 
-### AppDelegate
+### AppDelegate (iOS 12 and earlier)
 
 <img width="1058" alt="AppDelegateImage-1" src="" title="AppDelegateImage-1">
 
@@ -50,3 +50,34 @@ applicationWillTerminate: // 앱이 종료될 때 실행
 - 위의 메소드들은 iOS 12를 포함한 이전 버전까지는 사용 가능한 메소드였다.
 
     - 그 이유는  **앱은 오직 "하나의 프로세스와 그에 맞는 하나의 UI"만 가지기 때문이다.**
+    
+- - -
+- - -
+
+### AppDelegate (iOS 13)
+
+- iOS 13 부터는 앱은 여전히 하나의 프로세스를 공유하지만, 여러 UI 인스턴스 또는 Scene session이 있을 수 있기 때문이다.
+
+- - -
+- - -
+
+
+### Scene?
+
+- 
+
+
+
+- - -
+- - -
+
+
+
+
+### AppDelegate와 SceneDelegate
+
+- **iOS 12 까지는 대부분 하나의 앱에 하나의 'window' 였지만 iOS 13 부터는 window의 개념이 'scene'으로 대체되었다.**
+
+    - **window의 개념이 scene로 바뀌고(대체되고) 나서는 아래의 사진처럼 하나의 앱에서 여러개의 scene를 가질 수 있다.**
+    
+<img width="1058" alt="multiSceneImage-1" src="" title="multiSceneImage-1">    
