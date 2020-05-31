@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "iOS 면접을 위한 문답 정리 - 8 ()"
+title:  "iOS 면접을 위한 문답 정리 - 8 (Processor, Core, 프로그램(Program)과 프로세스(Process), Thread, 비동기(Asynchronous) 프로그래밍, 동시성(Concurrency) 프로그래밍, )"
 date:   2020-05-30
 categories: iOS, Swift
 ---
@@ -72,7 +72,7 @@ categories: iOS, Swift
 
 - **프로그램의 주 실행 흐름을 멈추어서 기다리는 부분 없이 바로 다음 작업을 실행할 수 있게 하는 방식.**
 
-    - 즉, 코드의 실행 결과처리를 별도의 공간에 맡겨둔 뒤 결과를 기다리지 않고 바로 다음 코드를 실행하는 병렬처리 방식.
+    - **즉, 코드의 실행 결과처리를 별도의 공간에 맡겨둔 뒤 결과를 기다리지 않고 바로 다음 코드를 실행하는 병렬처리 방식.**
     
     - 비동기 프로그래밍은 언어 및 프레임워크에서 지원하는 여러 방법으로 구현할 수 있다.
     
@@ -80,9 +80,49 @@ categories: iOS, Swift
 
 - **논리적인 용어로 동시에 실행되는 것처럼 보이는 것이다.**
 
-    - 싱글 코어(멀티 코어에서도 가능)에서 멀티스레드를 동작시키기 위한 방식으로 멀티 태스킹을 위해 여러 개의 스레드가 번갈아 가면서 실행되는 방식이다.
+    - **싱글 코어(멀티 코어에서도 가능)에서 멀티스레드를 동작시키기 위한 방식으로 멀티 태스킹을 위해 여러 개의 스레드가 번갈아 가면서 실행되는 방식이다.**
     
     - **동시성을 이용한 싱글 코어의 멀티 태스킹은 각 스레드들이 병렬적으로 실행되는 것처럼 보이지만 사실은 서로 번갈아 가면서 실행되고 있는 방식이다.**
 
 <img width="1058" alt="ConcurrencyImg-1" src="" title="ConcurrencyImg-1">
 
+#### 병렬성(Parallelism) 프로그래밍
+
+- **물리적으로 정확히 동시에 실행되는 것을 말한다.**
+
+    - **멀티 코어에서 멀티 스레드를 동작시키는 방식으로 데이터 병렬성(Data Parallelism)과 작업 병렬성(Task Parallelism)으로 구분된다.**
+    
+- **데이터 병렬성(Data Parallelism) : 전체 데이터를 나누어 서브 데이터들로 만든 뒤, 서브 데이터들을 병렬 처리해서 작업을 빠르게 수행하는 방법.**
+        
+<img width="1058" alt="dataParallelismImage-1" src="" title="dataParallelismImage-1">
+
+- **작업 병렬성(Taks Parallelism) : 서로 다른 작업을 병렬 처리하는 것을 말한다.**
+
+<img width="1058" alt="taskParallelismImage-1" src="" title="taskParallelismImage-1">
+
+#### 동시성(Concurrency)과 병렬성(Parallelism) 차이
+
+- **동시성 프로그래밍(Concurrency Programming)과 병렬성 프로그래밍(Parallelism Programming) 모두 비동기(Asynchronous) 동작을 구현할 수 있지만, 그 동작 원리가 다르다.**
+
+    - 동시성(Concurrency) : 통장을 만들러 온 N개의 대기열과 한 명 싱상의 은행직원.
+    
+    - 병렬성(Parallelism) : 통장을 만들어 온 N개의 대기열과 N명의 은행직원.
+    
+<img width="1058" alt="bankerImage-1" src="" title="bankerImage-1">
+
+- 동시성의 개념은 논리적이며 병렬성의 개념은 물리적이다.
+
+- 동시성의 동작 가능 환경은 싱글 코어, 멀티 코어가 가능하지만 병렬성은 멀티 코어만 가능하다.
+
+    - 즉, 동시성은 싱글 코어 및 멀티 코어에서 모두 구현할 수 있지만, 병렬성은 멀티 코어에서만 구현할 수 있다.
+    
+#### iOS 환경 동시성 프로그래밍 지원 종류
+
+- **Grand Central Dispatch (GCD) : 멀티 코어와  멀티 프로세싱 환경에서 최적화된 프로그래밍을 할 수 있도록 애플이 개발한 기술**
+
+- **Operation Queue (연산 대기열) : 비동기적으로 실행되어야 하는 작업을 객체 지향적인 방법으로 사용한다.**
+
+- **Thread : 멀티스레드 프로그래밍을 위한 애플에서 제공하는 스레드 클래스이다.**
+
+- - -
+- - -
