@@ -25,7 +25,7 @@ categories: iOS, Swift
 
 ### Notification Center와 Notification
 
-<img width="1058" alt="notiAndnotiCenterImage-1" src="" title="notiAndnotiCenterImage-1">
+<img width="1058" alt="notiAndnotiCenterImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/notiAndnotiCenterImage-1.png?raw=true" title="notiAndnotiCenterImage-1">
 
 #### Notification
 
@@ -74,10 +74,19 @@ categories: iOS, Swift
     - default : 애플리케이션의 기본 노티피케이션 센터이다.
     
     ```swift
-    class var 'default': NotificationCenter {get}
+    class var `default`: NotificationCenter {get}
     ```
 
 - 옵저버 추가 및 제거
+
+    - addObserver(forName:object:queue:using:) : 노티피케이션을 노티피케이션 대기열(Queue)과 대기열(Queue)에 추가 할 블록(Swift의 Closure), 노티피케이션 이름을 노티피케이션 센터의 메서드를 가리키는 장소(디스패치 테이블, Dispatch Table)에 이름을 추가한다. 여기서 object에 특정 객체를 명시하면 명시한 객체가 발송한 노티피케이션일 때에만 해당 이름의 노티피케이션을 수신한다.
+    
+    ```swift
+    func addObserver(forName name: NSNotification.Name?, 
+                        object obj: Any?, 
+                            queue: OperationQueue?, 
+                    using block: @escaping (Notification) -> Void) -> NSObjectProtocol
+    ```
 
 
 - - -
