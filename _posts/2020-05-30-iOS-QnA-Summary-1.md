@@ -65,7 +65,7 @@ categories: iOS, Swift
     
         - **그 외에 나중에 생성된 스레드를 서브 스레드 또는 세컨더리 스레드라고 한다.**
         
-<img width="1058" alt="MultithreadedImg-1" src="" title="MultithreadedImg-1">
+<img width="1058" alt="MultithreadedImg-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/MultithreadedImg-1.png?raw=true" title="MultithreadedImg-1">
 
 
 #### 비동기(Asynchronous) 프로그래밍
@@ -84,7 +84,7 @@ categories: iOS, Swift
     
     - **동시성을 이용한 싱글 코어의 멀티 태스킹은 각 스레드들이 병렬적으로 실행되는 것처럼 보이지만 사실은 서로 번갈아 가면서 실행되고 있는 방식이다.**
 
-<img width="1058" alt="ConcurrencyImg-1" src="" title="ConcurrencyImg-1">
+<img width="1058" alt="ConcurrencyImg-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/ConcurrencyImg-1.jpeg?raw=true" title="ConcurrencyImg-1">
 
 #### 병렬성(Parallelism) 프로그래밍
 
@@ -92,13 +92,11 @@ categories: iOS, Swift
 
     - **멀티 코어에서 멀티 스레드를 동작시키는 방식으로 데이터 병렬성(Data Parallelism)과 작업 병렬성(Task Parallelism)으로 구분된다.**
     
+<img width="1058" alt="parallelismImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/parallelismImage-1.png?raw=true" title="parallelismImage-1">    
+    
 - **데이터 병렬성(Data Parallelism) : 전체 데이터를 나누어 서브 데이터들로 만든 뒤, 서브 데이터들을 병렬 처리해서 작업을 빠르게 수행하는 방법.**
-        
-<img width="1058" alt="dataParallelismImage-1" src="" title="dataParallelismImage-1">
 
 - **작업 병렬성(Taks Parallelism) : 서로 다른 작업을 병렬 처리하는 것을 말한다.**
-
-<img width="1058" alt="taskParallelismImage-1" src="" title="taskParallelismImage-1">
 
 #### 동시성(Concurrency)과 병렬성(Parallelism) 차이
 
@@ -108,7 +106,7 @@ categories: iOS, Swift
     
     - 병렬성(Parallelism) : 통장을 만들어 온 N개의 대기열과 N명의 은행직원.
     
-<img width="1058" alt="bankerImage-1" src="" title="bankerImage-1">
+<img width="1058" alt="bankerImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/bankerImage-1.png?raw=true" title="bankerImage-1">
 
 - 동시성의 개념은 논리적이며 병렬성의 개념은 물리적이다.
 
