@@ -69,7 +69,7 @@ categories: iOS, Swift
         
         - Notification을 비동기적(Asynchronous)으로 사용하려면 NotificationQueue를 사용하면 된다.
         
-- 기본 NotificationCenter 얻기
+- **기본 NotificationCenter 얻기**
 
     - default : 애플리케이션의 기본 노티피케이션 센터이다.
     
@@ -77,17 +77,65 @@ categories: iOS, Swift
     class var `default`: NotificationCenter {get}
     ```
 
-- 옵저버 추가 및 제거
+- **옵저버 추가 및 제거**
 
     - addObserver(forName:object:queue:using:) : 노티피케이션을 노티피케이션 대기열(Queue)과 대기열(Queue)에 추가 할 블록(Swift의 Closure), 노티피케이션 이름을 노티피케이션 센터의 메서드를 가리키는 장소(디스패치 테이블, Dispatch Table)에 이름을 추가한다. 여기서 object에 특정 객체를 명시하면 명시한 객체가 발송한 노티피케이션일 때에만 해당 이름의 노티피케이션을 수신한다.
     
     ```swift
-    func addObserver(forName name: NSNotification.Name?, 
-                        object obj: Any?, 
-                            queue: OperationQueue?, 
-                    using block: @escaping (Notification) -> Void) -> NSObjectProtocol
+    func addObserver(
+        forName name: NSNotification.Name?, 
+        object obj: Any?, 
+        queue: OperationQueue?, 
+        using block: @escaping (Notification) -> Void) -> NSObjectProtocol
+    ```
+    
+    - addObserver(_:selector:name:object:) : 노티피케이션을 노티피케이션 센터의 메서드를 가리키는 장소에 이름을 추가한다.
+    
+    ```swift
+    func addObserver(
+        _ observer: Any,
+        selector aSelector: Selector,
+        name aName: NSNotification.Name?
+        object anObject: Any?)
+    ```
+    
+    - removeObserver(_:name:object:) : 노티피케이션 센터의 메서드를 가리키는 장소에서 일치하는 이름을 제거한다.
+    
+    ```swift
+    func removeObserver(
+        _ observer: Any,
+        name aName: NSNotification.Name?,
+        object anObject: Any?)
+    ```
+    
+    - removeObserver(_:) : 노티피케이션 센터의 메서드를 가리키는 장소에서 모든 이름을 제거한다.
+    
+    ```swift
+    func removeObserver(_ observer: Any)
     ```
 
+- **노티피케이션 발송**
+
+    - post(_:) : 지정된 노티피케이션을 노티피케이션 센터에 발송한다.
+    
+    ```swift
+    func post(_ notification: NOtification)
+    ```
+    
+    - post(name:object:userInfo:) : 지정된 이름, 보낸 객체, 보낼 정보로 노티피케이션을 만들어 노티피케이션 센터에 발송한다.
+    
+    ```swift
+    func post(
+        name aName: NSNotification.Name,
+        object anObject: Any?,
+        userInfo aUserInfo: [AnyHashable : Any]? = nil)
+    ```
+    
+    - post(name:object:) : 지정된 이름, 보낸 객체로 노티피케이션을 만들어 노티피케이션 센터에 발송한다.
+    
+    ```swift
+    func post(name aName: NSNotification.Name, object anObject: Any?)
+    ```
 
 - - -
 - - -
@@ -127,4 +175,12 @@ categories: iOS, Swift
     - Loop을 통해 변화가 있나 없나 계속 듣고 있어야 하기 때문에 Callback closure에 비해 자원적인 측면에서는 비효율적일 수도 있다.
     
         - **그러나 한 객체의 변화를 여러 객체들이 관찰해야 하는 경우 등에서는 Notification 방식이 다른 방법보다 나을 수 있다.**
+        
+#### Notification
+
+- 여기서 말하는 Notification은 Push Notification과는 다른 의미이다.
+
+    - Notification은 자신의 메세지를 받기로 한 가입객체에게 메세지를 보내게 된다. 이때 메세지를 보내는 객체는 자신의 가입객체에 대해 알 수 없고 그저 메세지만 보내게 된다.
+    
+    - 애플에서 직접 만든 코드 중 이 Notification이 활용되는 대표적인 사례는 앱에 키보드가 등장하는지 파악하더나, 홈버튼이 눌려 앱이 백그라운드로 이동했는지 파악하는 Notification을 꼽을 수 있다.
         
