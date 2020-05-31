@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "iOS 면접을 위한 문답 정리 - 8 (Processor, Core, 프로그램(Program)과 프로세스(Process), Thread, 비동기(Asynchronous) 프로그래밍, 동시성(Concurrency) 프로그래밍, )"
+title:  "iOS 면접을 위한 문답 정리 - 8 (Processor, Core, 프로그램(Program)과 프로세스(Process), Thread, 비동기(Asynchronous) 프로그래밍, 동시성(Concurrency) 프로그래밍, 병렬성(Parallelism) 프로그래밍, 동시성(Concurrency)과 병렬성(Parallelism) 차이, iOS 환경 동시성 프로그래밍 지원 종류)"
 date:   2020-05-30
 categories: iOS, Swift
 ---
