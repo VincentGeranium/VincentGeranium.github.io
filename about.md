@@ -2,50 +2,56 @@
 layout: page
 title: About
 permalink: /about/
+# Resume
+
 ---
 
-# Resume
+# 목차
+
+- [TIL](https://github.com/VincentGeranium/Resume#TIL)
+    - Today I Learned
+
+- [팀 프로젝트](https://github.com/VincentGeranium/Resume#팀-프로젝트)
+    - Fishing Point (피싱 포인트)
+    - Green Light (그린 라이트)
+    - AirBnB Clone Project
+
+- [개인 프로젝트](https://github.com/VincentGeranium/Resume#개인-프로젝트)
+    - 음원재생기 애플리캐이션 (edwith iOS Programming Project)
+    - 회원가입 화면 (edwith iOS Programming Project)
+    - 기상정보 애플리케이션 (edwith iOS Programming Project)
+    - Weather App (kxcoding iOS Programming Project)
+
+- [Blog](https://github.com/VincentGeranium/Resume#Blog)
+    - VincentGeranium Blog
 
 ---
 
 # 김광준
 
+## 개발과 사람을 좋아하는 iOS 개발자 김광준 입니다.
 
-### 개발과 사람을 좋아하는 iOS 개발자 김광준 입니다.
+## contact
 
----
-
-### contact
-
-- github : <https://github.com/VincentGeranium>
-
-- E-mail : <kwangjun3952@gmail.com>
-
-- Rocket Punch : <https://www.rocketpunch.com/@kwangjun3952>
+- E-mail : kwangjun3952@gmail.com
 
 ---
 
-## 목차
+- - -
 
-- [팀 프로젝트](#팀-프로젝트)
-    - Fishing Point (피싱 포인트)
-    - Green Light (그린 라이트)
-    - AirBnB Clone Project
+## TIL
 
-- [개인 프로젝트 (edwith iOS Programming)](#boostcourse)
-    - 음원재생기 애플리캐이션
-    - 회원가입 화면
-    - 기상정보 애플리케이션
+- - -
 
-- [Today I Learned](https://github.com/VincentGeranium/TIL/blob/master/Today_I_Learnd/README.md)
+- [Today I Learned 보기](https://github.com/VincentGeranium/TIL/blob/master/Today_I_Learnd/README.md)
+
+- - -
+
+# 프로젝트
 
 ---
 
-### 프로젝트
-
----
-
-### 팀 프로젝트
+## 팀 프로젝트
 
 ---
 
@@ -62,7 +68,7 @@ Fast Campus 첫 해커톤, 팀 프로젝트.
 - [영상 링크](https://youtu.be/uMAwjqyQP90)
 - [Fishing Point repo](https://github.com/VincentGeranium/fishing)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/3.PNG?raw=true">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/1.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/2.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/3.PNG">
 
 ---
 
@@ -80,7 +86,7 @@ Fast Campus 두 번째 해커톤, 팀 프로젝트.
 - 프로젝트 인원 : 3명
 - [영상 링크](https://youtu.be/VoQcsD0qX-Q)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g1.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g2.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g3.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g4.png?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/g5.png?raw=true">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g1.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g2.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g3.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g4.png"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/g5.png">
 
 ---
 
@@ -97,12 +103,13 @@ Back-end(3명), Front-end(4명), iOS(3명) 이 1팀을 이루어 한 프로젝�
 - [영상 링크](https://youtu.be/k47imZZucpY)
 - [AirBnB Clone Project](https://github.com/VincentGeranium/MyAirbnb)
 
-<img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a3.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a4.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a5.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a6.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/a7.PNG?raw=true">
+<img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a1.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a2.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a3.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a4.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a5.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a6.PNG"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/a7.PNG">
 
 ---
 
-### boostcourse
+## 개인 프로젝트
 
+- - -
 - - -
 
 ### 음원 재생기 어플리캐이션
@@ -113,7 +120,6 @@ edwith boostcourse iOS Programming 첫 번째 프로젝트 입니다.
 - 역활 : 앱 전체 구현
 - 사용기술 : Swift, AVFoundation
 - 프로젝트 인원 : 1명
-- [Music Player Project Repo](https://github.com/VincentGeranium/edwithStudy-project-1)
 
 <img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/musicAppVideo.gif?raw=true">
 
@@ -127,7 +133,6 @@ edwith boostcourse iOS Programming 두 번째 프로젝트 입니다.
 - 역활 : 앱 전체 구현
 - 사용기술 : Swift, Foundation
 - 프로젝트 인원 : 1명
-- [Sign Up Project Repo](https://github.com/VincentGeranium/edwithStudy-project-3)
 
 <img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/PJT-2.gif?raw=true">
 
@@ -143,11 +148,26 @@ edwith boostcourse iOS Programming 세 번째 프로젝트 입니다.
 - 역활 : 앱 전체 구현
 - 사용기술 : Swift, Foundation
 - 프로젝트 인원 : 1명
-- [Weather Today Project Repo](https://github.com/VincentGeranium/edwithStudy-project-4)
 
 <img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherToday-4.gif?raw=true">
 
 <img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherToday-1.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherToday-2.PNG?raw=true"><img width="200" alt="image" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherToday-3.PNG?raw=true">
+
+- - -
+
+### Weather App
+
+SK Open API 중 Weather Planet API 를 사용한 날씨 앱 프로젝트 입니다.
+
+- 기간 : 2020.05.02 ~ 2020.05.09
+- 역활 : 앱 전체 구현
+- 사용기술 : Swift, Foundation, CoreLocation, URLSession, Codable, DispatchQueue
+- 프로젝트 인원 : 1명
+- [Weather App Project](https://github.com/VincentGeranium/WeatherAppUsedSkAPI)
+
+<img width="200" alt="weatherSKapiGif" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherAppUsedSKapi.gif?raw=true">
+
+<img width="200" alt="weatherSKapi-1" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherSKapi-1.PNG?raw=true"><img width="200" alt="weatherSKapi-2" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherSKapi-2.PNG?raw=true"><img width="200" alt="weatherSKapi-3" src="https://github.com/VincentGeranium/Resume/blob/master/IMAGE/weatherSKapi-3.PNG?raw=true">
 
 - - -
 
