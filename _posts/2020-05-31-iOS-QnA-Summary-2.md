@@ -41,7 +41,7 @@ categories: iOS, Swift
 
 ### Cocoa Touch Framework?
 
-<img width="1058" alt="CocoaTouchFrameworkImg-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/CocoaTouchFrameworkImg-1.png?raw=true" title="CocoaTouchFrameworkImg-1$">
+<img width="1058" alt="CocoaTouchFrameworkImg-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/CocoaTouchFrameworkImg-1.png?raw=true" title="CocoaTouchFrameworkImg-1">
 
 - **코코아 터치 프레임워크는 iOS 애플리케이션 개발 환경이다.**
 
