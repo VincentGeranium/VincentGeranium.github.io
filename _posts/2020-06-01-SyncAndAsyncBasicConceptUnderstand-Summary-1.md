@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "동기/비동기, 직렬/동시성 작업에 관한 기본 개념 Inflearn Allen 님의 강의 노트 정리"
-date:   2020-05-31
+date:   2020-06-01
 categories: iOS, Swift
 ---
 
