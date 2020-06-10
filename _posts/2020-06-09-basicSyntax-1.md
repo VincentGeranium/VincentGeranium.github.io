@@ -42,7 +42,7 @@ categories: iOS, Swift
 
 <img width="1058" alt="functorImg-2" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/functorImg-2.png?raw=true" title="functorImg-2">
 
-<img width="1058" alt="functorImg-3" src="" title="옵셔널의맵메서드를통한연산그림">
+<img width="1058" alt="functorImg-3" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/functorImg-3.jpg?raw=true" title="옵셔널의맵메서드를통한연산그림">
 
 - 처음 위의 내용에서 부터 맵을 언급한 이유는 **"함수객체란 맵을 적용할 수 있는 컨테이너 타입"이라고 말할 수 있기 때문이다.**
 
@@ -54,7 +54,7 @@ categories: iOS, Swift
     
     - 아래의 그림을 통해 함수객체에서 맵이 어떻게 동작하는지 봐보자.
     
-<img width="1058" alt="functorImg-4" src="" title="함수객체와맵메서드동작모식도">
+<img width="1058" alt="functorImg-4" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/functorImg-4.jpg?raw=true" title="함수객체와맵메서드동작모식도">
 
 - 위의 그림을 코드로 보자면 아래와 같이 표현할 수 있다.
 
@@ -76,11 +76,11 @@ extension Optional {
 
     - 값이 있다면 전달받은 함수에 자신의 값을 적용한 결괏값을 다시 컨텍스트에 넣어 반환하고, 그렇지 않다면 함수를 실행하지 않고 빈 컨텍스트를 반환한다.
 
-<img width="1058" alt="functorImg-5" src="" title="OptionalMap의동작모식도">
+<img width="1058" alt="functorImg-5" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/functorImg-5.jpg?raw=true" title="OptionalMap의동작모식도">
 
 - Optional(2).map(addThree)를 실행할 때는 위의 그림과 같이 동작한다.
 
-<img width="1058" alt="functorImg-6" src="" title="OptionalNoneMap의동작모식도">
+<img width="1058" alt="functorImg-6" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/functorImg-6.jpg?raw=true" title="OptionalNoneMap의동작모식도">
 
 - 만약 값이 없는 Optional.none.map(addThree)와 같은 상황이라면 위와 같은 상황이라면 위의 그림과 같은 동작이 실행될 것이다.
 

@@ -51,7 +51,7 @@ categories: iOS, Swift
 
     - 기존 컨테이너의 값은 변경되지 않고 새로운 컨테이너가 생성되어 반환된다. 그래서 **맵은 기존 데이터를 변형(transform)**하는데 많이 사용한다.
     
-<img width="1058" alt="mapImage-1" src="" title="mapImage-1">
+<img width="1058" alt="mapImage-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/mapImage-1.jpg?raw=true" title="mapImage-1">
 
 - map 메서드의 사용법은 for-in 구문과 별반 차이가 없다.
 
@@ -69,7 +69,7 @@ categories: iOS, Swift
 
     - 또한, 배열의 append 연산을 실행하기 위한 시간도 필요 없다.
     
-<img width="1058" alt="mapImage-3" src="" title="mapImage-3">
+<img width="1058" alt="mapImage-3" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/mapImage-3.jpg?raw=true" title="mapImage-3">
 
 - 위 그림은 map 메서드의 동작 모식도이다.
 

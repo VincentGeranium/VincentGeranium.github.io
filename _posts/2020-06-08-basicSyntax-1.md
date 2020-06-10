@@ -51,7 +51,7 @@ categories: iOS, Swift
     
         - 이처럼 값(콘텐츠)과 컨텍스트의 관계를 이해하는 것이 컨텍스트를 공부하는 것의 출발점이다.
         
-<img width="1058" alt="contextImg-1" src="" title="컨텍스트박스이미지">
+<img width="1058" alt="contextImg-1" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/contextImg-1.jpg?raw=true" title="컨텍스트박스이미지">
 
 - 옵셔널은 some과 none라는 두 가지의 컨텍스트를 갖는다.
 
@@ -69,7 +69,7 @@ func addThree(_ num: Int) -> Int {
 
     - addThree(_:) 함수는 매개변수(Parameter)로 일반 Int 타입의 값을 받기 때문이다.
 
-<img width="1058" alt="contextImg-2" src="" title="addThree(_:)함수의동작이미지">
+<img width="1058" alt="contextImg-2" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/contextImg-2.jpg?raw=true" title="addThree(_:)함수의동작이미지">
 
 ```swift
 // 일반 값을 연산할 수 있는 addThree(_:) 함수
@@ -87,7 +87,7 @@ addThree(Optional(2)) // Error !!
 
     - 순수한 값이 아닌 무언가(여기서 옵셔널의 some)로 둘러싸인 컨텍스트가 전달되었기 때문이다.
     
-<img width="1058" alt="contextImg-3" src="" title="addThree(_:)함수가받아들일수없는옵셔널이미지">
+<img width="1058" alt="contextImg-3" src="https://github.com/VincentGeranium/VincentGeranium.github.io/blob/master/assets/img/contextImg-3.jpg?raw=true" title="addThree(_:)함수가받아들일수없는옵셔널이미지">
 
 - - -
 - - -
