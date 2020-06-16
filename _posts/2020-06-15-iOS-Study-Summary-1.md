@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "테이블 뷰 TIL - 1 (TableView Study, Today I Learned - 1)"
-date:   2020-05-25
+date:   2020-06-15
 categories: iOS, Swift
 ---
 
