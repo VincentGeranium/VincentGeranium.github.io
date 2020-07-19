@@ -36,7 +36,7 @@ categories: iOS, Swift
 
     - 직접적으로 스레드 관리 X, "Queue를 만들어 작업을 분산 처리."
 
-        - Queue(대기열/대기행렬) 안에 Tasks(작업들)을 넣어주기만 하면 iOS(Operation System)이 알아서 스레드를 생성하여 작업을 분배, 분산 처리한다.
+        - Queue(대기열/대기행렬) 안에 Tasks(작업들)을 넣어주기만 하면 iOS(Operating System)이 알아서 스레드를 생성하여 작업을 분배, 분산 처리한다.
     
     - GCD / Operation 을 사용하여 "시스템에서 알아서 스레드 숫자를 관리한다."
 
