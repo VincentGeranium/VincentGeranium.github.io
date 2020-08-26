@@ -40,9 +40,25 @@ MVC는 다음과 같은 세 가지 주요 객체로 구성된 소프트웨어 �
 
 ### The Model (M)
 
-'Model' 계층은 앱의 모든 데이터를 포괄한다. 프로젝트에는 일반적으로 'Model' 계층에 포함할 수 있는 다른 클래스및 객체가 있다.
+`Model` 계층은 앱의 모든 데이터를 포괄한다. 프로젝트에는 일반적으로 `Model` 계층에 포함할 수 있는 다른 클래스및 객체가 있다.
 
-- **Network code** : 앱 전체에 걸친 네트워크 통신에는 단일 클래스만 사용하는 것이 좋다. HTTP 헤더 및 응답, 오류 처리 등 모든 네트워킹 요청에 공통되는 개념을 쉽게 추상화할 수 있다.
+- **Network code**
 
-- **Persistence code** : 데이터를 데이터베이스 또는 코어 데이터에 저장하거나 디바이스에 데이터를 저장할 때 사용한다.
+- **Persistence code**
+
+- **Parsing code**
+
+- **Managers and abstraction layers/classes**
+
+- **Data sources and delegates**
+
+- **Constants**
+
+- **Helpers and extensions**
+
+- - -
+
+### The View (V)
+
+
 
